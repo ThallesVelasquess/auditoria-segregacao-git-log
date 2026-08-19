@@ -56,7 +56,7 @@ Sempre que uma pessoa aparece atuando fora do seu grupo predominante, o script m
 
 ### 1. Clone o repositório
 ```bash
-git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
+git clone https://github.com/ThallesVelasquess/auditoria-segregacao-git-log.git
 cd NOME-DO-REPOSITORIO
 ```
 
