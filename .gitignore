@@ -1,0 +1,17 @@
+# Ambiente virtual
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Relatórios gerados localmente (fora dos exemplos versionados)
+relatorio_git_log.xlsx
+*.xlsx.tmp

@@ -1,0 +1,4549 @@
+commit ee77f41
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Tue Jul 1 09:06:56 2025 -0300
+
+    test(checkout): adiciona testes end-to-end para fluxo de compra
+    Merge pull request #758 from brunoalves/test/adiciona-testes-end-to-end-para-fluxo
+
+commit 78c5941
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Tue Jul 1 18:17:55 2025 -0300
+
+    fix(public-api): corrige encoding incorreto em exportação CSV
+    Merge pull request #759 from eduardopires/fix/corrige-encoding-incorreto-em-exportacao
+
+commit 87bf76c
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Tue Jul 1 22:20:53 2025 -0300
+
+    refactor(core): reduz complexidade do componente de checkout
+    Merge pull request #760 from carlamendes/refactor/reduz-complexidade-do-componente-de
+
+commit 3ff3557
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Wed Jul 2 06:51:28 2025 -0300
+
+    test(mobile-api): adiciona testes unitários para serviço de notificações
+    Merge pull request #761 from lucasferreira/test/adiciona-testes-unitarios-para-servico
+
+commit 89c1e22
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Wed Jul 2 14:20:02 2025 -0300
+
+    perf(webhooks): otimiza indexação de busca full-text
+    Merge pull request #762 from julianaramos/perf/otimiza-indexacao-de-busca-full-text
+
+commit 3f4b972
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Wed Jul 2 20:58:24 2025 -0300
+
+    chore(admin-panel): atualiza imagem base do Docker
+    Merge pull request #763 from marinasouza/chore/atualiza-imagem-base-do-docker
+
+commit 65369f8
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Thu Jul 3 03:06:30 2025 -0300
+
+    style(dashboard): ajusta espaçamento e tipografia da interface
+    Merge pull request #764 from julianaramos/style/ajusta-espacamento-e-tipografia-da
+
+commit bde109f
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Thu Jul 3 07:40:20 2025 -0300
+
+    style(admin-panel): ajusta paleta de cores para acessibilidade
+    Merge pull request #765 from julianaramos/style/ajusta-paleta-de-cores-para
+
+commit d3b786f
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Thu Jul 3 16:55:15 2025 -0300
+
+    docs(search): atualiza documentação da API no README
+    Merge pull request #766 from thiagorocha/docs/atualiza-documentacao-da-api-no
+
+commit 6a8a5c9
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Thu Jul 3 21:54:29 2025 -0300
+
+    security(notifications): implementa rate limiting na API pública
+    Merge pull request #767 from julianaramos/security/implementa-rate-limiting-na-api
+
+commit 972b20d
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Fri Jul 4 04:48:12 2025 -0300
+
+    feat(search): adiciona endpoint de exportação de relatórios em CSV
+    Merge pull request #768 from fernandalima/feat/adiciona-endpoint-de-exportacao-de
+
+commit 815339c
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Fri Jul 4 13:47:48 2025 -0300
+
+    feat(auth): adiciona suporte a webhooks
+    Merge pull request #769 from eduardopires/feat/adiciona-suporte-a-webhooks
+
+commit 68486ed
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Fri Jul 4 18:54:28 2025 -0300
+
+    fix(admin-panel): corrige exibição de dados sensíveis no log
+    Merge pull request #770 from eduardopires/fix/corrige-exibicao-de-dados-sensiveis
+
+commit 0b7e4fd
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Sat Jul 5 00:45:32 2025 -0300
+
+    perf(webhooks): reduz tempo de build do frontend
+    Merge pull request #771 from marinasouza/perf/reduz-tempo-de-build-do
+
+commit 575de43
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Sat Jul 5 07:29:44 2025 -0300
+
+    chore(core): reorganiza arquivos de configuração
+    Merge pull request #772 from patriciagomes/chore/reorganiza-arquivos-de-configuracao
+
+commit b0265f7
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Sat Jul 5 13:17:15 2025 -0300
+
+    feat(admin-panel): implementa paginação infinita na listagem
+    Merge pull request #773 from eduardopires/feat/implementa-paginacao-infinita-na-listagem
+
+commit c2b26d4
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Sat Jul 5 22:26:49 2025 -0300
+
+    fix(public-api): resolve travamento ao anexar múltiplos arquivos
+    Merge pull request #774 from patriciagomes/fix/resolve-travamento-ao-anexar-multiplos
+
+commit c4f85fa
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Sun Jul 6 05:48:07 2025 -0300
+
+    docs(notifications): adiciona exemplos de uso da API pública
+    Merge pull request #775 from thiagorocha/docs/adiciona-exemplos-de-uso-da
+
+tag: v2.16.0
+Tagger: Renata Bastos <renata.bastos@empresa.com>
+Date:   Sun Jul 6 13:17:13 2025 -0300
+
+    Release v2.16.0
+    PRs incluídos: #770, #771, #772, #773, #774, #775
+
+commit 7356b03
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Sun Jul 6 17:23:21 2025 -0300
+
+    feat(auth): adiciona integração com gateway de pagamento
+    Merge pull request #776 from marinasouza/feat/adiciona-integracao-com-gateway-de
+
+commit 3f4be69
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Mon Jul 7 01:29:48 2025 -0300
+
+    security(core): corrige exposição de dados em endpoint de debug
+    Merge pull request #777 from diegocastro/security/corrige-exposicao-de-dados-em
+
+commit ee1746e
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Mon Jul 7 09:37:35 2025 -0300
+
+    chore(dashboard): reorganiza arquivos de configuração
+    Merge pull request #778 from diegocastro/chore/reorganiza-arquivos-de-configuracao
+
+commit 1da989d
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Mon Jul 7 13:51:07 2025 -0300
+
+    refactor(mobile-api): refatora camada de acesso a dados
+    Merge pull request #779 from diegocastro/refactor/refatora-camada-de-acesso-a
+
+commit d0748ae
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Mon Jul 7 20:06:57 2025 -0300
+
+    refactor(reports): reduz complexidade do componente de checkout
+    Merge pull request #780 from lucasferreira/refactor/reduz-complexidade-do-componente-de
+
+commit 8ab2294
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Tue Jul 8 04:27:14 2025 -0300
+
+    security(dashboard): atualiza dependência com CVE crítico
+    Merge pull request #781 from carlamendes/security/atualiza-dependencia-com-cve-critico
+
+commit 2a87b24
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Tue Jul 8 11:35:38 2025 -0300
+
+    refactor(billing): desacopla módulo de pagamentos do core
+    Merge pull request #782 from camiladuarte/refactor/desacopla-modulo-de-pagamentos-do
+
+commit 6f15104
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Tue Jul 8 18:55:42 2025 -0300
+
+    test(notifications): adiciona testes unitários para serviço de notificações
+    Merge pull request #783 from eduardopires/test/adiciona-testes-unitarios-para-servico
+
+commit 06d4b11
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Wed Jul 9 00:38:15 2025 -0300
+
+    docs(reports): adiciona exemplos de uso da API pública
+    Merge pull request #784 from fernandalima/docs/adiciona-exemplos-de-uso-da
+
+commit e38d1bc
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Wed Jul 9 07:26:54 2025 -0300
+
+    chore(notifications): atualiza dependências do projeto
+    Merge pull request #785 from marinasouza/chore/atualiza-dependencias-do-projeto
+
+commit ba1a99a
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Wed Jul 9 14:06:52 2025 -0300
+
+    security(notifications): implementa rate limiting na API pública
+    Merge pull request #786 from marinasouza/security/implementa-rate-limiting-na-api
+
+tag: v2.16.1
+Tagger: Vinicius Teixeira <vinicius.teixeira@empresa.com>
+Date:   Wed Jul 9 20:00:13 2025 -0300
+
+    Release v2.16.1
+    PRs incluídos: #781, #782, #783, #784, #785, #786
+
+commit 3b9af9f
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Thu Jul 10 03:16:49 2025 -0300
+
+    feat(billing): adiciona modo escuro na interface
+    Merge pull request #787 from julianaramos/feat/adiciona-modo-escuro-na-interface
+
+commit b5284f5
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Thu Jul 10 10:51:36 2025 -0300
+
+    test(checkout): adiciona testes end-to-end para fluxo de compra
+    Merge pull request #788 from patriciagomes/test/adiciona-testes-end-to-end-para-fluxo
+
+commit aa77977
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Thu Jul 10 16:01:26 2025 -0300
+
+    docs(webhooks): adiciona guia de contribuição
+    Merge pull request #789 from thiagorocha/docs/adiciona-guia-de-contribuicao
+
+commit fa4de13
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Thu Jul 10 22:20:33 2025 -0300
+
+    feat(dashboard): implementa importação de dados via planilha
+    Merge pull request #790 from camiladuarte/feat/implementa-importacao-de-dados-via
+
+commit 36378da
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Fri Jul 11 04:39:36 2025 -0300
+
+    security(dashboard): adiciona validação contra SQL injection
+    Merge pull request #791 from patriciagomes/security/adiciona-validacao-contra-sql-injection
+
+commit b42a1ba
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Fri Jul 11 13:03:14 2025 -0300
+
+    style(public-api): ajusta espaçamento e tipografia da interface
+    Merge pull request #792 from brunoalves/style/ajusta-espacamento-e-tipografia-da
+
+commit 6830f1f
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Fri Jul 11 21:02:49 2025 -0300
+
+    chore(admin-panel): reorganiza arquivos de configuração
+    Merge pull request #793 from eduardopires/chore/reorganiza-arquivos-de-configuracao
+
+commit 15cae49
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Sat Jul 12 02:50:05 2025 -0300
+
+    style(webhooks): ajusta espaçamento e tipografia da interface
+    Merge pull request #794 from rafaelnunes/style/ajusta-espacamento-e-tipografia-da
+
+commit 8a2ea51
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Sat Jul 12 10:47:57 2025 -0300
+
+    chore(core): configura análise estática de código
+    Merge pull request #795 from camiladuarte/chore/configura-analise-estatica-de-codigo
+
+commit e293387
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Sat Jul 12 14:01:00 2025 -0300
+
+    chore(billing): configura análise estática de código
+    Merge pull request #796 from carlamendes/chore/configura-analise-estatica-de-codigo
+
+tag: v2.16.2
+Tagger: Aline Correia <aline.correia@empresa.com>
+Date:   Sat Jul 12 20:46:45 2025 -0300
+
+    Release v2.16.2
+    PRs incluídos: #791, #792, #793, #794, #795, #796
+
+commit fa40c96
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Sun Jul 13 05:48:44 2025 -0300
+
+    refactor(checkout): migra chamadas de API para hooks customizados
+    Merge pull request #797 from brunoalves/refactor/migra-chamadas-de-api-para
+
+commit ffa1bb1
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Sun Jul 13 12:57:41 2025 -0300
+
+    fix(reports): resolve conflito de merge automático no cron job
+    Merge pull request #798 from patriciagomes/fix/resolve-conflito-de-merge-automatico
+
+commit 5087c58
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Sun Jul 13 18:46:19 2025 -0300
+
+    perf(search): reduz tempo de build do frontend
+    Merge pull request #799 from diegocastro/perf/reduz-tempo-de-build-do
+
+commit 25bcb96
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Mon Jul 14 02:13:31 2025 -0300
+
+    refactor(billing): desacopla módulo de pagamentos do core
+    Merge pull request #800 from brunoalves/refactor/desacopla-modulo-de-pagamentos-do
+
+commit be491ee
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Mon Jul 14 07:17:14 2025 -0300
+
+    refactor(public-api): reorganiza estrutura de pastas do backend
+    Merge pull request #801 from marinasouza/refactor/reorganiza-estrutura-de-pastas-do
+
+commit 5ca2747
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Mon Jul 14 16:26:31 2025 -0300
+
+    docs(reports): atualiza documentação da API no README
+    Merge pull request #802 from camiladuarte/docs/atualiza-documentacao-da-api-no
+
+commit ff4f191
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Mon Jul 14 20:02:09 2025 -0300
+
+    docs(mobile-api): adiciona guia de contribuição
+    Merge pull request #803 from marinasouza/docs/adiciona-guia-de-contribuicao
+
+commit b2c1923
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Tue Jul 15 04:52:41 2025 -0300
+
+    feat(checkout): adiciona integração com gateway de pagamento
+    Merge pull request #804 from patriciagomes/feat/adiciona-integracao-com-gateway-de
+
+commit 5ea3cde
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Tue Jul 15 13:12:57 2025 -0300
+
+    chore(public-api): migra pipeline de CI/CD para GitHub Actions
+    Merge pull request #805 from julianaramos/chore/migra-pipeline-de-ci/cd-para
+
+commit 02f0a18
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Tue Jul 15 18:57:44 2025 -0300
+
+    test(billing): adiciona testes de integração para módulo de checkout
+    Merge pull request #806 from fernandalima/test/adiciona-testes-de-integracao-para
+
+commit 3d2726f
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Tue Jul 15 23:51:52 2025 -0300
+
+    test(public-api): corrige testes instáveis (flaky tests) na suíte de CI
+    Merge pull request #807 from eduardopires/test/corrige-testes-instaveis-(flaky-tests)
+
+tag: v2.16.3
+Tagger: Renata Bastos <renata.bastos@empresa.com>
+Date:   Wed Jul 16 09:28:33 2025 -0300
+
+    Release v2.16.3
+    PRs incluídos: #802, #803, #804, #805, #806, #807
+
+commit 22e666b
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Wed Jul 16 12:57:01 2025 -0300
+
+    feat(public-api): adiciona API pública versionada
+    Merge pull request #808 from diegocastro/feat/adiciona-api-publica-versionada
+
+commit c9a1686
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Wed Jul 16 22:35:41 2025 -0300
+
+    style(auth): padroniza ícones do menu lateral
+    Merge pull request #809 from eduardopires/style/padroniza-icones-do-menu-lateral
+
+commit e70f000
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Thu Jul 17 04:31:00 2025 -0300
+
+    test(search): adiciona testes end-to-end para fluxo de compra
+    Merge pull request #810 from rafaelnunes/test/adiciona-testes-end-to-end-para-fluxo
+
+commit 265cb6d
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Thu Jul 17 11:19:05 2025 -0300
+
+    security(billing): corrige vulnerabilidade de XSS no formulário de contato
+    Merge pull request #811 from camiladuarte/security/corrige-vulnerabilidade-de-xss-no
+
+commit c3b476b
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Thu Jul 17 15:32:58 2025 -0300
+
+    perf(search): reduz tempo de build do frontend
+    Merge pull request #812 from julianaramos/perf/reduz-tempo-de-build-do
+
+commit 3b9e30c
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Fri Jul 18 01:49:04 2025 -0300
+
+    feat(mobile-api): adiciona integração com gateway de pagamento
+    Merge pull request #813 from carlamendes/feat/adiciona-integracao-com-gateway-de
+
+commit 4416a4b
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Fri Jul 18 05:00:37 2025 -0300
+
+    security(core): corrige vulnerabilidade de XSS no formulário de contato
+    Merge pull request #814 from eduardopires/security/corrige-vulnerabilidade-de-xss-no
+
+commit b3f93e3
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Fri Jul 18 14:36:34 2025 -0300
+
+    perf(webhooks): otimiza consultas ao banco de dados
+    Merge pull request #815 from patriciagomes/perf/otimiza-consultas-ao-banco-de
+
+commit c3253c8
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Fri Jul 18 18:46:36 2025 -0300
+
+    fix(billing): resolve vazamento de memória no worker de filas
+    Merge pull request #816 from carlamendes/fix/resolve-vazamento-de-memoria-no
+
+commit 681fb17
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Sat Jul 19 02:06:28 2025 -0300
+
+    chore(auth): limpa dependências não utilizadas
+    Merge pull request #817 from rafaelnunes/chore/limpa-dependencias-nao-utilizadas
+
+commit b4a2310
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Sat Jul 19 08:51:06 2025 -0300
+
+    fix(webhooks): resolve conflito de merge automático no cron job
+    Merge pull request #818 from thiagorocha/fix/resolve-conflito-de-merge-automatico
+
+tag: v2.16.4
+Tagger: Renata Bastos <renata.bastos@empresa.com>
+Date:   Sat Jul 19 15:25:06 2025 -0300
+
+    Release v2.16.4
+    PRs incluídos: #813, #814, #815, #816, #817, #818
+
+commit b4e5373
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Sun Jul 20 00:44:47 2025 -0300
+
+    security(mobile-api): adiciona validação contra SQL injection
+    Merge pull request #819 from patriciagomes/security/adiciona-validacao-contra-sql-injection
+
+commit a480815
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Sun Jul 20 06:27:53 2025 -0300
+
+    chore(mobile-api): remove código legado não utilizado
+    Merge pull request #820 from diegocastro/chore/remove-codigo-legado-nao-utilizado
+
+commit 4e671f9
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Sun Jul 20 11:54:39 2025 -0300
+
+    chore(checkout): configura análise estática de código
+    Merge pull request #821 from brunoalves/chore/configura-analise-estatica-de-codigo
+
+commit 9c3dbdb
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Sun Jul 20 19:06:43 2025 -0300
+
+    style(checkout): ajusta espaçamento e tipografia da interface
+    Merge pull request #822 from diegocastro/style/ajusta-espacamento-e-tipografia-da
+
+commit daab879
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Mon Jul 21 01:27:08 2025 -0300
+
+    perf(checkout): reduz tamanho do bundle JavaScript
+    Merge pull request #823 from patriciagomes/perf/reduz-tamanho-do-bundle-javascript
+
+commit b22507a
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Mon Jul 21 07:58:27 2025 -0300
+
+    feat(core): implementa busca com filtros avançados
+    Merge pull request #824 from brunoalves/feat/implementa-busca-com-filtros-avancados
+
+commit 42fd097
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Mon Jul 21 14:34:38 2025 -0300
+
+    fix(reports): resolve conflito de merge automático no cron job
+    Merge pull request #825 from camiladuarte/fix/resolve-conflito-de-merge-automatico
+
+commit ecb81a7
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Mon Jul 21 22:01:58 2025 -0300
+
+    security(admin-panel): adiciona validação contra SQL injection
+    Merge pull request #826 from camiladuarte/security/adiciona-validacao-contra-sql-injection
+
+commit 45b78a4
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Tue Jul 22 04:21:16 2025 -0300
+
+    style(core): padroniza ícones do menu lateral
+    Merge pull request #827 from fernandalima/style/padroniza-icones-do-menu-lateral
+
+commit e8ccd37
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Tue Jul 22 12:16:43 2025 -0300
+
+    chore(webhooks): migra pipeline de CI/CD para GitHub Actions
+    Merge pull request #828 from thiagorocha/chore/migra-pipeline-de-ci/cd-para
+
+commit 1b63df0
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Tue Jul 22 17:14:59 2025 -0300
+
+    perf(billing): otimiza consultas ao banco de dados
+    Merge pull request #829 from thiagorocha/perf/otimiza-consultas-ao-banco-de
+
+commit f97914e
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Wed Jul 23 03:41:55 2025 -0300
+
+    security(notifications): corrige vulnerabilidade de XSS no formulário de contato
+    Merge pull request #830 from carlamendes/security/corrige-vulnerabilidade-de-xss-no
+
+commit d2e6193
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Wed Jul 23 08:29:32 2025 -0300
+
+    refactor(search): reduz complexidade do componente de checkout
+    Merge pull request #831 from eduardopires/refactor/reduz-complexidade-do-componente-de
+
+commit 56e0b77
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Wed Jul 23 13:23:59 2025 -0300
+
+    refactor(checkout): desacopla módulo de pagamentos do core
+    Merge pull request #832 from marinasouza/refactor/desacopla-modulo-de-pagamentos-do
+
+commit 108d0e3
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Wed Jul 23 21:13:01 2025 -0300
+
+    fix(notifications): resolve conflito de merge automático no cron job
+    Merge pull request #833 from diegocastro/fix/resolve-conflito-de-merge-automatico
+
+commit 96c1702
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Thu Jul 24 03:46:22 2025 -0300
+
+    chore(webhooks): atualiza dependências do projeto
+    Merge pull request #834 from eduardopires/chore/atualiza-dependencias-do-projeto
+
+commit d033e1e
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Thu Jul 24 12:58:01 2025 -0300
+
+    style(notifications): ajusta paleta de cores para acessibilidade
+    Merge pull request #835 from carlamendes/style/ajusta-paleta-de-cores-para
+
+tag: v3.0.0
+Tagger: Aline Correia <aline.correia@empresa.com>
+Date:   Thu Jul 24 19:29:30 2025 -0300
+
+    Release v3.0.0
+    PRs incluídos: #830, #831, #832, #833, #834, #835
+
+commit 2f8497a
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Thu Jul 24 23:39:06 2025 -0300
+
+    style(webhooks): ajusta espaçamento e tipografia da interface
+    Merge pull request #836 from diegocastro/style/ajusta-espacamento-e-tipografia-da
+
+commit dc3a043
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Fri Jul 25 06:27:05 2025 -0300
+
+    chore(webhooks): configura análise estática de código
+    Merge pull request #837 from julianaramos/chore/configura-analise-estatica-de-codigo
+
+commit 8a26c4a
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Fri Jul 25 12:28:02 2025 -0300
+
+    perf(public-api): otimiza carregamento de imagens (lazy loading)
+    Merge pull request #838 from julianaramos/perf/otimiza-carregamento-de-imagens-(lazy
+
+commit 6bbc4be
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Fri Jul 25 20:36:28 2025 -0300
+
+    chore(reports): limpa dependências não utilizadas
+    Merge pull request #839 from lucasferreira/chore/limpa-dependencias-nao-utilizadas
+
+commit 6d5286b
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Sat Jul 26 04:29:21 2025 -0300
+
+    feat(reports): implementa paginação infinita na listagem
+    Merge pull request #840 from diegocastro/feat/implementa-paginacao-infinita-na-listagem
+
+commit ddc3c7e
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Sat Jul 26 11:57:46 2025 -0300
+
+    feat(billing): implementa histórico de alterações (audit log)
+    Merge pull request #841 from julianaramos/feat/implementa-historico-de-alteracoes-(audit
+
+commit c60ecf3
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Sat Jul 26 18:19:04 2025 -0300
+
+    security(core): atualiza dependência com CVE crítico
+    Merge pull request #842 from thiagorocha/security/atualiza-dependencia-com-cve-critico
+
+commit 7f61775
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Sun Jul 27 01:33:11 2025 -0300
+
+    test(billing): aumenta cobertura de testes do módulo de usuários
+    Merge pull request #843 from carlamendes/test/aumenta-cobertura-de-testes-do
+
+commit 6852a06
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Sun Jul 27 05:08:47 2025 -0300
+
+    security(admin-panel): corrige vulnerabilidade de XSS no formulário de contato
+    Merge pull request #844 from marinasouza/security/corrige-vulnerabilidade-de-xss-no
+
+commit 55bf346
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Sun Jul 27 13:51:31 2025 -0300
+
+    perf(admin-panel): otimiza carregamento de imagens (lazy loading)
+    Merge pull request #845 from brunoalves/perf/otimiza-carregamento-de-imagens-(lazy
+
+commit d918c71
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Sun Jul 27 21:23:51 2025 -0300
+
+    chore(billing): limpa dependências não utilizadas
+    Merge pull request #846 from brunoalves/chore/limpa-dependencias-nao-utilizadas
+
+commit 8c9a95c
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Mon Jul 28 02:13:49 2025 -0300
+
+    perf(auth): reduz tempo de build do frontend
+    Merge pull request #847 from thiagorocha/perf/reduz-tempo-de-build-do
+
+commit 27d0df0
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Mon Jul 28 09:01:03 2025 -0300
+
+    feat(mobile-api): implementa sistema de permissões por papel
+    Merge pull request #848 from julianaramos/feat/implementa-sistema-de-permissoes-por
+
+commit 1e19800
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Mon Jul 28 17:44:43 2025 -0300
+
+    docs(search): atualiza documentação da API no README
+    Merge pull request #849 from diegocastro/docs/atualiza-documentacao-da-api-no
+
+commit c30d523
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Mon Jul 28 23:10:41 2025 -0300
+
+    perf(core): reduz tamanho do bundle JavaScript
+    Merge pull request #850 from rafaelnunes/perf/reduz-tamanho-do-bundle-javascript
+
+tag: v3.1.0
+Tagger: Vinicius Teixeira <vinicius.teixeira@empresa.com>
+Date:   Tue Jul 29 06:21:53 2025 -0300
+
+    Release v3.1.0
+    PRs incluídos: #845, #846, #847, #848, #849, #850
+
+commit 1427163
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Tue Jul 29 13:41:23 2025 -0300
+
+    feat(checkout): adiciona integração com gateway de pagamento
+    Merge pull request #851 from diegocastro/feat/adiciona-integracao-com-gateway-de
+
+commit 4655634
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Tue Jul 29 19:50:19 2025 -0300
+
+    test(mobile-api): adiciona testes end-to-end para fluxo de compra
+    Merge pull request #852 from rafaelnunes/test/adiciona-testes-end-to-end-para-fluxo
+
+commit c69c798
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Wed Jul 30 04:03:11 2025 -0300
+
+    refactor(mobile-api): refatora camada de acesso a dados
+    Merge pull request #853 from camiladuarte/refactor/refatora-camada-de-acesso-a
+
+commit 4c87283
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Wed Jul 30 09:16:42 2025 -0300
+
+    chore(admin-panel): limpa dependências não utilizadas
+    Merge pull request #854 from thiagorocha/chore/limpa-dependencias-nao-utilizadas
+
+commit 3076626
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Wed Jul 30 16:08:58 2025 -0300
+
+    feat(dashboard): implementa importação de dados via planilha
+    Merge pull request #855 from fernandalima/feat/implementa-importacao-de-dados-via
+
+commit bc5af59
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Wed Jul 30 20:42:02 2025 -0300
+
+    feat(mobile-api): implementa histórico de alterações (audit log)
+    Merge pull request #856 from carlamendes/feat/implementa-historico-de-alteracoes-(audit
+
+commit 3b21f49
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Thu Jul 31 07:03:57 2025 -0300
+
+    fix(auth): corrige quebra de layout em telas menores
+    Merge pull request #857 from carlamendes/fix/corrige-quebra-de-layout-em
+
+commit 0a62959
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Thu Jul 31 11:10:40 2025 -0300
+
+    security(auth): adiciona validação contra SQL injection
+    Merge pull request #858 from brunoalves/security/adiciona-validacao-contra-sql-injection
+
+commit 4c2e4a6
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Thu Jul 31 19:41:04 2025 -0300
+
+    security(dashboard): corrige exposição de dados em endpoint de debug
+    Merge pull request #859 from camiladuarte/security/corrige-exposicao-de-dados-em
+
+commit 9fef195
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Fri Aug 1 00:14:16 2025 -0300
+
+    style(core): padroniza ícones do menu lateral
+    Merge pull request #860 from eduardopires/style/padroniza-icones-do-menu-lateral
+
+commit 3f2a846
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Fri Aug 1 06:41:23 2025 -0300
+
+    style(search): ajusta espaçamento e tipografia da interface
+    Merge pull request #861 from brunoalves/style/ajusta-espacamento-e-tipografia-da
+
+commit ef7ae42
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Fri Aug 1 13:44:38 2025 -0300
+
+    style(mobile-api): ajusta espaçamento e tipografia da interface
+    Merge pull request #862 from lucasferreira/style/ajusta-espacamento-e-tipografia-da
+
+commit 02d1aed
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Fri Aug 1 23:51:33 2025 -0300
+
+    style(reports): ajusta paleta de cores para acessibilidade
+    Merge pull request #863 from fernandalima/style/ajusta-paleta-de-cores-para
+
+commit 73320a5
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Sat Aug 2 04:58:47 2025 -0300
+
+    style(reports): padroniza ícones do menu lateral
+    Merge pull request #864 from thiagorocha/style/padroniza-icones-do-menu-lateral
+
+commit 50b3788
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Sat Aug 2 12:40:50 2025 -0300
+
+    test(mobile-api): adiciona testes unitários para serviço de notificações
+    Merge pull request #865 from julianaramos/test/adiciona-testes-unitarios-para-servico
+
+commit 652e276
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Sat Aug 2 19:15:59 2025 -0300
+
+    security(public-api): corrige vulnerabilidade de XSS no formulário de contato
+    Merge pull request #866 from diegocastro/security/corrige-vulnerabilidade-de-xss-no
+
+commit e03d9df
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Sun Aug 3 01:53:15 2025 -0300
+
+    security(notifications): adiciona validação contra SQL injection
+    Merge pull request #867 from carlamendes/security/adiciona-validacao-contra-sql-injection
+
+tag: v3.1.1
+Tagger: Aline Correia <aline.correia@empresa.com>
+Date:   Sun Aug 3 08:44:09 2025 -0300
+
+    Release v3.1.1
+    PRs incluídos: #862, #863, #864, #865, #866, #867
+
+commit aae6c8d
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Sun Aug 3 14:06:23 2025 -0300
+
+    test(billing): adiciona testes de integração para módulo de checkout
+    Merge pull request #868 from thiagorocha/test/adiciona-testes-de-integracao-para
+
+commit ad9d1cd
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Sun Aug 3 22:34:41 2025 -0300
+
+    security(core): corrige vulnerabilidade de XSS no formulário de contato
+    Merge pull request #869 from eduardopires/security/corrige-vulnerabilidade-de-xss-no
+
+commit 206bfaf
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Mon Aug 4 04:06:03 2025 -0300
+
+    style(auth): ajusta paleta de cores para acessibilidade
+    Merge pull request #870 from rafaelnunes/style/ajusta-paleta-de-cores-para
+
+commit e2a5d50
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Mon Aug 4 09:52:29 2025 -0300
+
+    style(reports): padroniza ícones do menu lateral
+    Merge pull request #871 from camiladuarte/style/padroniza-icones-do-menu-lateral
+
+commit 4be56ec
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Mon Aug 4 17:13:03 2025 -0300
+
+    chore(notifications): configura análise estática de código
+    Merge pull request #872 from brunoalves/chore/configura-analise-estatica-de-codigo
+
+commit f871a46
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Mon Aug 4 22:44:37 2025 -0300
+
+    perf(public-api): reduz tempo de build do frontend
+    Merge pull request #873 from carlamendes/perf/reduz-tempo-de-build-do
+
+commit a4cbf9b
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Tue Aug 5 05:11:24 2025 -0300
+
+    fix(public-api): corrige inconsistência de fuso horário nos relatórios
+    Merge pull request #874 from fernandalima/fix/corrige-inconsistencia-de-fuso-horario
+
+commit cad9300
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Tue Aug 5 11:56:43 2025 -0300
+
+    chore(public-api): reorganiza arquivos de configuração
+    Merge pull request #875 from camiladuarte/chore/reorganiza-arquivos-de-configuracao
+
+commit d06c54e
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Tue Aug 5 18:31:00 2025 -0300
+
+    perf(dashboard): otimiza consultas ao banco de dados
+    Merge pull request #876 from thiagorocha/perf/otimiza-consultas-ao-banco-de
+
+commit aa6b5cf
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Wed Aug 6 02:34:45 2025 -0300
+
+    security(admin-panel): implementa rate limiting na API pública
+    Merge pull request #877 from rafaelnunes/security/implementa-rate-limiting-na-api
+
+commit 7dc8583
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Wed Aug 6 08:29:19 2025 -0300
+
+    refactor(admin-panel): unifica tratamento de erros da API
+    Merge pull request #878 from thiagorocha/refactor/unifica-tratamento-de-erros-da
+
+commit 007031f
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Wed Aug 6 15:24:07 2025 -0300
+
+    feat(billing): adiciona endpoint de exportação de relatórios em CSV
+    Merge pull request #879 from thiagorocha/feat/adiciona-endpoint-de-exportacao-de
+
+commit e731d60
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Thu Aug 7 00:11:40 2025 -0300
+
+    chore(search): atualiza versão do runtime do Node.js
+    Merge pull request #880 from marinasouza/chore/atualiza-versao-do-runtime-do
+
+commit 7a48c57
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Thu Aug 7 06:25:57 2025 -0300
+
+    security(billing): corrige vulnerabilidade de XSS no formulário de contato
+    Merge pull request #881 from patriciagomes/security/corrige-vulnerabilidade-de-xss-no
+
+commit f22fbeb
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Thu Aug 7 13:34:29 2025 -0300
+
+    style(public-api): ajusta paleta de cores para acessibilidade
+    Merge pull request #882 from lucasferreira/style/ajusta-paleta-de-cores-para
+
+commit b66fc3d
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Thu Aug 7 19:29:07 2025 -0300
+
+    perf(dashboard): otimiza indexação de busca full-text
+    Merge pull request #883 from patriciagomes/perf/otimiza-indexacao-de-busca-full-text
+
+commit 2be56fc
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Fri Aug 8 03:46:27 2025 -0300
+
+    docs(billing): atualiza documentação da API no README
+    Merge pull request #884 from julianaramos/docs/atualiza-documentacao-da-api-no
+
+commit 402006c
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Fri Aug 8 07:29:48 2025 -0300
+
+    feat(reports): implementa importação de dados via planilha
+    Merge pull request #885 from camiladuarte/feat/implementa-importacao-de-dados-via
+
+commit cd20816
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Fri Aug 8 16:33:12 2025 -0300
+
+    security(reports): atualiza dependência com CVE crítico
+    Merge pull request #886 from marinasouza/security/atualiza-dependencia-com-cve-critico
+
+tag: v3.2.0
+Tagger: Renata Bastos <renata.bastos@empresa.com>
+Date:   Fri Aug 8 23:36:18 2025 -0300
+
+    Release v3.2.0
+    PRs incluídos: #881, #882, #883, #884, #885, #886
+
+commit 3099304
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Sat Aug 9 06:32:34 2025 -0300
+
+    style(checkout): ajusta espaçamento e tipografia da interface
+    Merge pull request #887 from brunoalves/style/ajusta-espacamento-e-tipografia-da
+
+commit a34070e
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Sat Aug 9 10:09:25 2025 -0300
+
+    test(dashboard): adiciona testes unitários para serviço de notificações
+    Merge pull request #888 from rafaelnunes/test/adiciona-testes-unitarios-para-servico
+
+commit 772ef6c
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Sat Aug 9 20:45:32 2025 -0300
+
+    docs(search): atualiza documentação da API no README
+    Merge pull request #889 from marinasouza/docs/atualiza-documentacao-da-api-no
+
+commit 093aff6
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Sun Aug 10 00:00:20 2025 -0300
+
+    refactor(search): migra chamadas de API para hooks customizados
+    Merge pull request #890 from carlamendes/refactor/migra-chamadas-de-api-para
+
+commit ee64fcc
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Sun Aug 10 08:59:34 2025 -0300
+
+    chore(webhooks): configura análise estática de código
+    Merge pull request #891 from marinasouza/chore/configura-analise-estatica-de-codigo
+
+commit 8d59529
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Sun Aug 10 14:59:19 2025 -0300
+
+    fix(search): resolve conflito de merge automático no cron job
+    Merge pull request #892 from carlamendes/fix/resolve-conflito-de-merge-automatico
+
+commit 83cb776
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Sun Aug 10 20:28:25 2025 -0300
+
+    docs(notifications): atualiza changelog do projeto
+    Merge pull request #893 from carlamendes/docs/atualiza-changelog-do-projeto
+
+commit 4499be3
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Mon Aug 11 05:55:41 2025 -0300
+
+    docs(core): adiciona guia de contribuição
+    Merge pull request #894 from carlamendes/docs/adiciona-guia-de-contribuicao
+
+commit 8d55868
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Mon Aug 11 12:46:38 2025 -0300
+
+    style(public-api): ajusta espaçamento e tipografia da interface
+    Merge pull request #895 from marinasouza/style/ajusta-espacamento-e-tipografia-da
+
+commit ae9b69c
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Mon Aug 11 18:47:18 2025 -0300
+
+    security(core): atualiza dependência com CVE crítico
+    Merge pull request #896 from camiladuarte/security/atualiza-dependencia-com-cve-critico
+
+commit dd01a39
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Tue Aug 12 01:53:19 2025 -0300
+
+    perf(admin-panel): otimiza indexação de busca full-text
+    Merge pull request #897 from lucasferreira/perf/otimiza-indexacao-de-busca-full-text
+
+commit d07a474
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Tue Aug 12 07:03:50 2025 -0300
+
+    fix(billing): corrige timeout na chamada de API de pagamentos
+    Merge pull request #898 from patriciagomes/fix/corrige-timeout-na-chamada-de
+
+commit 4b3f995
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Tue Aug 12 13:00:21 2025 -0300
+
+    test(dashboard): adiciona testes de integração para módulo de checkout
+    Merge pull request #899 from eduardopires/test/adiciona-testes-de-integracao-para
+
+commit d52cbea
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Tue Aug 12 22:32:41 2025 -0300
+
+    test(notifications): corrige testes instáveis (flaky tests) na suíte de CI
+    Merge pull request #900 from rafaelnunes/test/corrige-testes-instaveis-(flaky-tests)
+
+commit 2b4873f
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Wed Aug 13 02:16:11 2025 -0300
+
+    test(admin-panel): adiciona testes unitários para serviço de notificações
+    Merge pull request #901 from camiladuarte/test/adiciona-testes-unitarios-para-servico
+
+commit ead136b
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Wed Aug 13 09:35:50 2025 -0300
+
+    perf(billing): reduz tamanho do bundle JavaScript
+    Merge pull request #902 from fernandalima/perf/reduz-tamanho-do-bundle-javascript
+
+commit 575d93f
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Wed Aug 13 18:02:59 2025 -0300
+
+    feat(webhooks): adiciona exportação de dados em PDF
+    Merge pull request #903 from brunoalves/feat/adiciona-exportacao-de-dados-em
+
+tag: v3.3.0
+Tagger: Vinicius Teixeira <vinicius.teixeira@empresa.com>
+Date:   Wed Aug 13 22:31:04 2025 -0300
+
+    Release v3.3.0
+    PRs incluídos: #898, #899, #900, #901, #902, #903
+
+commit 3e68aee
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Thu Aug 14 07:06:33 2025 -0300
+
+    security(reports): implementa rate limiting na API pública
+    Merge pull request #904 from rafaelnunes/security/implementa-rate-limiting-na-api
+
+commit 6e2ef11
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Thu Aug 14 15:16:49 2025 -0300
+
+    perf(billing): reduz tamanho do bundle JavaScript
+    Merge pull request #905 from thiagorocha/perf/reduz-tamanho-do-bundle-javascript
+
+commit d137086
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Thu Aug 14 22:19:51 2025 -0300
+
+    fix(public-api): resolve travamento ao anexar múltiplos arquivos
+    Merge pull request #906 from patriciagomes/fix/resolve-travamento-ao-anexar-multiplos
+
+commit 45a8a7b
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Fri Aug 15 01:07:44 2025 -0300
+
+    refactor(core): reorganiza estrutura de pastas do backend
+    Merge pull request #907 from fernandalima/refactor/reorganiza-estrutura-de-pastas-do
+
+commit fcb09bf
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Fri Aug 15 11:21:31 2025 -0300
+
+    refactor(public-api): extrai serviço de notificações para módulo próprio
+    Merge pull request #908 from thiagorocha/refactor/extrai-servico-de-notificacoes-para
+
+commit a2e33d8
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Fri Aug 15 17:41:43 2025 -0300
+
+    security(core): atualiza dependência com CVE crítico
+    Merge pull request #909 from marinasouza/security/atualiza-dependencia-com-cve-critico
+
+commit 90f35f2
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Fri Aug 15 21:34:08 2025 -0300
+
+    security(notifications): corrige exposição de dados em endpoint de debug
+    Merge pull request #910 from diegocastro/security/corrige-exposicao-de-dados-em
+
+commit fe682a9
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Sat Aug 16 05:59:14 2025 -0300
+
+    perf(admin-panel): otimiza carregamento de imagens (lazy loading)
+    Merge pull request #911 from carlamendes/perf/otimiza-carregamento-de-imagens-(lazy
+
+commit 3d9db8a
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Sat Aug 16 12:21:25 2025 -0300
+
+    style(webhooks): padroniza ícones do menu lateral
+    Merge pull request #912 from patriciagomes/style/padroniza-icones-do-menu-lateral
+
+commit 34ac8a2
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Sat Aug 16 20:59:39 2025 -0300
+
+    security(public-api): atualiza dependência com CVE crítico
+    Merge pull request #913 from lucasferreira/security/atualiza-dependencia-com-cve-critico
+
+commit 404f6f6
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Sun Aug 17 02:21:52 2025 -0300
+
+    test(billing): corrige testes instáveis (flaky tests) na suíte de CI
+    Merge pull request #914 from patriciagomes/test/corrige-testes-instaveis-(flaky-tests)
+
+commit c85a0a7
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Sun Aug 17 07:58:22 2025 -0300
+
+    docs(checkout): adiciona guia de contribuição
+    Merge pull request #915 from carlamendes/docs/adiciona-guia-de-contribuicao
+
+commit cce7ce2
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Sun Aug 17 14:31:14 2025 -0300
+
+    perf(checkout): otimiza indexação de busca full-text
+    Merge pull request #916 from julianaramos/perf/otimiza-indexacao-de-busca-full-text
+
+commit 2a5048a
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Sun Aug 17 22:04:46 2025 -0300
+
+    refactor(reports): migra chamadas de API para hooks customizados
+    Merge pull request #917 from patriciagomes/refactor/migra-chamadas-de-api-para
+
+tag: v3.3.1
+Tagger: Aline Correia <aline.correia@empresa.com>
+Date:   Mon Aug 18 06:11:57 2025 -0300
+
+    Release v3.3.1
+    PRs incluídos: #912, #913, #914, #915, #916, #917
+
+commit 7aa4eca
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Mon Aug 18 13:07:13 2025 -0300
+
+    test(core): adiciona testes unitários para serviço de notificações
+    Merge pull request #918 from lucasferreira/test/adiciona-testes-unitarios-para-servico
+
+commit 465a1f8
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Mon Aug 18 18:26:38 2025 -0300
+
+    docs(mobile-api): adiciona guia de contribuição
+    Merge pull request #919 from fernandalima/docs/adiciona-guia-de-contribuicao
+
+commit 311de99
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Mon Aug 18 23:59:30 2025 -0300
+
+    docs(core): documenta processo de deploy
+    Merge pull request #920 from thiagorocha/docs/documenta-processo-de-deploy
+
+commit 118bf10
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Tue Aug 19 09:54:11 2025 -0300
+
+    security(mobile-api): corrige exposição de dados em endpoint de debug
+    Merge pull request #921 from julianaramos/security/corrige-exposicao-de-dados-em
+
+commit f384198
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Tue Aug 19 13:42:13 2025 -0300
+
+    test(reports): adiciona testes end-to-end para fluxo de compra
+    Merge pull request #922 from brunoalves/test/adiciona-testes-end-to-end-para-fluxo
+
+commit a93f5ed
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Tue Aug 19 20:16:55 2025 -0300
+
+    perf(admin-panel): otimiza indexação de busca full-text
+    Merge pull request #923 from diegocastro/perf/otimiza-indexacao-de-busca-full-text
+
+commit b50ccbd
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Wed Aug 20 06:23:32 2025 -0300
+
+    chore(search): reorganiza arquivos de configuração
+    Merge pull request #924 from lucasferreira/chore/reorganiza-arquivos-de-configuracao
+
+commit 39f1f43
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Wed Aug 20 09:44:39 2025 -0300
+
+    chore(auth): remove código legado não utilizado
+    Merge pull request #925 from lucasferreira/chore/remove-codigo-legado-nao-utilizado
+
+commit 0fa99a1
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Wed Aug 20 17:33:00 2025 -0300
+
+    style(checkout): ajusta espaçamento e tipografia da interface
+    Merge pull request #926 from brunoalves/style/ajusta-espacamento-e-tipografia-da
+
+commit 3193348
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Wed Aug 20 23:28:24 2025 -0300
+
+    chore(auth): limpa dependências não utilizadas
+    Merge pull request #927 from diegocastro/chore/limpa-dependencias-nao-utilizadas
+
+commit bfcd10a
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Thu Aug 21 06:46:11 2025 -0300
+
+    chore(mobile-api): atualiza versão do runtime do Node.js
+    Merge pull request #928 from brunoalves/chore/atualiza-versao-do-runtime-do
+
+commit 1123910
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Thu Aug 21 15:44:10 2025 -0300
+
+    refactor(search): reduz complexidade do componente de checkout
+    Merge pull request #929 from marinasouza/refactor/reduz-complexidade-do-componente-de
+
+commit b864433
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Thu Aug 21 20:27:33 2025 -0300
+
+    docs(notifications): adiciona exemplos de uso da API pública
+    Merge pull request #930 from rafaelnunes/docs/adiciona-exemplos-de-uso-da
+
+commit 6169679
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Fri Aug 22 03:25:54 2025 -0300
+
+    feat(reports): implementa histórico de alterações (audit log)
+    Merge pull request #931 from thiagorocha/feat/implementa-historico-de-alteracoes-(audit
+
+commit baae3d1
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Fri Aug 22 12:16:15 2025 -0300
+
+    feat(core): adiciona integração com gateway de pagamento
+    Merge pull request #932 from lucasferreira/feat/adiciona-integracao-com-gateway-de
+
+commit bd6b6ce
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Fri Aug 22 17:06:32 2025 -0300
+
+    test(reports): adiciona testes end-to-end para fluxo de compra
+    Merge pull request #933 from eduardopires/test/adiciona-testes-end-to-end-para-fluxo
+
+commit 868b1c8
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Fri Aug 22 22:41:07 2025 -0300
+
+    style(auth): ajusta paleta de cores para acessibilidade
+    Merge pull request #934 from diegocastro/style/ajusta-paleta-de-cores-para
+
+tag: v3.3.2
+Tagger: Renata Bastos <renata.bastos@empresa.com>
+Date:   Sat Aug 23 07:20:15 2025 -0300
+
+    Release v3.3.2
+    PRs incluídos: #929, #930, #931, #932, #933, #934
+
+commit fb0e47d
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Sat Aug 23 12:33:17 2025 -0300
+
+    feat(mobile-api): implementa autenticação via OAuth2
+    Merge pull request #935 from rafaelnunes/feat/implementa-autenticacao-via-oauth2
+
+commit ffb84a0
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Sat Aug 23 21:38:38 2025 -0300
+
+    style(mobile-api): padroniza ícones do menu lateral
+    Merge pull request #936 from thiagorocha/style/padroniza-icones-do-menu-lateral
+
+commit f95f46e
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Sun Aug 24 01:24:37 2025 -0300
+
+    feat(public-api): adiciona integração com gateway de pagamento
+    Merge pull request #937 from eduardopires/feat/adiciona-integracao-com-gateway-de
+
+commit ce68e1e
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Sun Aug 24 09:32:34 2025 -0300
+
+    feat(reports): adiciona modo escuro na interface
+    Merge pull request #938 from diegocastro/feat/adiciona-modo-escuro-na-interface
+
+commit a3a271b
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Sun Aug 24 14:37:08 2025 -0300
+
+    test(core): adiciona testes unitários para serviço de notificações
+    Merge pull request #939 from brunoalves/test/adiciona-testes-unitarios-para-servico
+
+commit 217eecd
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Mon Aug 25 00:43:02 2025 -0300
+
+    security(checkout): corrige vulnerabilidade de XSS no formulário de contato
+    Merge pull request #940 from carlamendes/security/corrige-vulnerabilidade-de-xss-no
+
+commit a50278d
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Mon Aug 25 04:23:58 2025 -0300
+
+    test(core): adiciona testes de integração para módulo de checkout
+    Merge pull request #941 from fernandalima/test/adiciona-testes-de-integracao-para
+
+commit eb5f2dc
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Mon Aug 25 13:25:35 2025 -0300
+
+    refactor(core): refatora camada de acesso a dados
+    Merge pull request #942 from julianaramos/refactor/refatora-camada-de-acesso-a
+
+commit 106aae8
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Mon Aug 25 18:15:46 2025 -0300
+
+    perf(mobile-api): reduz tamanho do bundle JavaScript
+    Merge pull request #943 from fernandalima/perf/reduz-tamanho-do-bundle-javascript
+
+commit bf19f09
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Tue Aug 26 03:14:00 2025 -0300
+
+    security(checkout): atualiza dependência com CVE crítico
+    Merge pull request #944 from carlamendes/security/atualiza-dependencia-com-cve-critico
+
+commit d02b27e
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Tue Aug 26 08:32:06 2025 -0300
+
+    feat(auth): adiciona modo escuro na interface
+    Merge pull request #945 from thiagorocha/feat/adiciona-modo-escuro-na-interface
+
+commit 7579072
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Tue Aug 26 15:28:27 2025 -0300
+
+    feat(checkout): adiciona endpoint de exportação de relatórios em CSV
+    Merge pull request #946 from rafaelnunes/feat/adiciona-endpoint-de-exportacao-de
+
+commit cfa40bf
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Tue Aug 26 23:57:31 2025 -0300
+
+    fix(auth): resolve falha no reenvio de e-mails de confirmação
+    Merge pull request #947 from lucasferreira/fix/resolve-falha-no-reenvio-de
+
+commit a47eb75
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Wed Aug 27 03:53:18 2025 -0300
+
+    docs(search): atualiza documentação da API no README
+    Merge pull request #948 from rafaelnunes/docs/atualiza-documentacao-da-api-no
+
+commit bce2972
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Wed Aug 27 13:31:14 2025 -0300
+
+    chore(auth): remove código legado não utilizado
+    Merge pull request #949 from eduardopires/chore/remove-codigo-legado-nao-utilizado
+
+commit c9b2f59
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Wed Aug 27 17:30:28 2025 -0300
+
+    feat(search): implementa histórico de alterações (audit log)
+    Merge pull request #950 from rafaelnunes/feat/implementa-historico-de-alteracoes-(audit
+
+commit 03ffc6a
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Thu Aug 28 03:19:49 2025 -0300
+
+    docs(billing): atualiza documentação da API no README
+    Merge pull request #951 from marinasouza/docs/atualiza-documentacao-da-api-no
+
+commit 26c17cf
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Thu Aug 28 08:30:53 2025 -0300
+
+    chore(reports): remove código legado não utilizado
+    Merge pull request #952 from carlamendes/chore/remove-codigo-legado-nao-utilizado
+
+tag: v3.3.3
+Tagger: Renata Bastos <renata.bastos@empresa.com>
+Date:   Thu Aug 28 15:54:49 2025 -0300
+
+    Release v3.3.3
+    PRs incluídos: #947, #948, #949, #950, #951, #952
+
+commit 3ac2a97
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Thu Aug 28 22:30:43 2025 -0300
+
+    fix(webhooks): resolve race condition no processamento de pedidos
+    Merge pull request #953 from marinasouza/fix/resolve-race-condition-no-processamento
+
+commit 7df0058
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Fri Aug 29 02:42:53 2025 -0300
+
+    style(reports): ajusta espaçamento e tipografia da interface
+    Merge pull request #954 from carlamendes/style/ajusta-espacamento-e-tipografia-da
+
+commit e8ed0d8
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Fri Aug 29 11:48:21 2025 -0300
+
+    docs(search): adiciona guia de contribuição
+    Merge pull request #955 from lucasferreira/docs/adiciona-guia-de-contribuicao
+
+commit 4dea406
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Fri Aug 29 17:01:15 2025 -0300
+
+    refactor(billing): refatora camada de acesso a dados
+    Merge pull request #956 from patriciagomes/refactor/refatora-camada-de-acesso-a
+
+commit 8b9781e
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Fri Aug 29 23:59:39 2025 -0300
+
+    docs(billing): adiciona guia de contribuição
+    Merge pull request #957 from thiagorocha/docs/adiciona-guia-de-contribuicao
+
+commit 2639c8c
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Sat Aug 30 06:50:05 2025 -0300
+
+    chore(core): configura análise estática de código
+    Merge pull request #958 from thiagorocha/chore/configura-analise-estatica-de-codigo
+
+commit 8d27bbb
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Sat Aug 30 15:31:58 2025 -0300
+
+    security(reports): corrige vulnerabilidade de XSS no formulário de contato
+    Merge pull request #959 from lucasferreira/security/corrige-vulnerabilidade-de-xss-no
+
+commit 803efeb
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Sat Aug 30 20:58:02 2025 -0300
+
+    fix(search): resolve race condition no processamento de pedidos
+    Merge pull request #960 from patriciagomes/fix/resolve-race-condition-no-processamento
+
+commit 5f15c25
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Sun Aug 31 05:41:12 2025 -0300
+
+    chore(webhooks): migra pipeline de CI/CD para GitHub Actions
+    Merge pull request #961 from diegocastro/chore/migra-pipeline-de-ci/cd-para
+
+commit 59a2897
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Sun Aug 31 09:44:08 2025 -0300
+
+    style(reports): ajusta espaçamento e tipografia da interface
+    Merge pull request #962 from rafaelnunes/style/ajusta-espacamento-e-tipografia-da
+
+commit 9eaa2f9
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Sun Aug 31 17:06:12 2025 -0300
+
+    style(billing): padroniza ícones do menu lateral
+    Merge pull request #963 from camiladuarte/style/padroniza-icones-do-menu-lateral
+
+commit d9244a9
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Sun Aug 31 23:31:25 2025 -0300
+
+    chore(auth): atualiza imagem base do Docker
+    Merge pull request #964 from marinasouza/chore/atualiza-imagem-base-do-docker
+
+commit 640f60b
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Mon Sep 1 05:37:44 2025 -0300
+
+    chore(webhooks): padroniza formatação com Prettier/ESLint
+    Merge pull request #965 from carlamendes/chore/padroniza-formatacao-com-prettier/eslint
+
+tag: v3.3.4
+Tagger: Renata Bastos <renata.bastos@empresa.com>
+Date:   Mon Sep 1 15:22:17 2025 -0300
+
+    Release v3.3.4
+    PRs incluídos: #960, #961, #962, #963, #964, #965
+
+commit 0e865b7
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Mon Sep 1 22:08:23 2025 -0300
+
+    docs(mobile-api): adiciona guia de contribuição
+    Merge pull request #966 from julianaramos/docs/adiciona-guia-de-contribuicao
+
+commit 363cd35
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Tue Sep 2 03:51:55 2025 -0300
+
+    chore(public-api): atualiza biblioteca de testes
+    Merge pull request #967 from patriciagomes/chore/atualiza-biblioteca-de-testes
+
+commit 31054bc
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Tue Sep 2 09:45:26 2025 -0300
+
+    docs(mobile-api): adiciona guia de contribuição
+    Merge pull request #968 from patriciagomes/docs/adiciona-guia-de-contribuicao
+
+commit b188f55
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Tue Sep 2 16:24:29 2025 -0300
+
+    fix(mobile-api): corrige timeout na chamada de API de pagamentos
+    Merge pull request #969 from lucasferreira/fix/corrige-timeout-na-chamada-de
+
+commit 63b08eb
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Wed Sep 3 00:10:08 2025 -0300
+
+    chore(core): padroniza formatação com Prettier/ESLint
+    Merge pull request #970 from rafaelnunes/chore/padroniza-formatacao-com-prettier/eslint
+
+commit 404a5ea
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Wed Sep 3 06:10:48 2025 -0300
+
+    test(checkout): adiciona testes unitários para serviço de notificações
+    Merge pull request #971 from thiagorocha/test/adiciona-testes-unitarios-para-servico
+
+commit 4b89c08
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Wed Sep 3 13:03:24 2025 -0300
+
+    chore(dashboard): limpa dependências não utilizadas
+    Merge pull request #972 from eduardopires/chore/limpa-dependencias-nao-utilizadas
+
+commit 98b9ba2
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Wed Sep 3 19:08:43 2025 -0300
+
+    perf(mobile-api): otimiza indexação de busca full-text
+    Merge pull request #973 from carlamendes/perf/otimiza-indexacao-de-busca-full-text
+
+commit 9af9795
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Thu Sep 4 03:21:53 2025 -0300
+
+    feat(checkout): implementa autenticação via OAuth2
+    Merge pull request #974 from thiagorocha/feat/implementa-autenticacao-via-oauth2
+
+commit 49d28fd
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Thu Sep 4 08:51:38 2025 -0300
+
+    security(public-api): implementa rate limiting na API pública
+    Merge pull request #975 from brunoalves/security/implementa-rate-limiting-na-api
+
+commit 1e38644
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Thu Sep 4 15:10:58 2025 -0300
+
+    refactor(notifications): desacopla módulo de pagamentos do core
+    Merge pull request #976 from marinasouza/refactor/desacopla-modulo-de-pagamentos-do
+
+commit a01df3b
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Thu Sep 4 21:36:20 2025 -0300
+
+    chore(auth): padroniza formatação com Prettier/ESLint
+    Merge pull request #977 from camiladuarte/chore/padroniza-formatacao-com-prettier/eslint
+
+tag: v3.3.5
+Tagger: Renata Bastos <renata.bastos@empresa.com>
+Date:   Fri Sep 5 06:38:59 2025 -0300
+
+    Release v3.3.5
+    PRs incluídos: #972, #973, #974, #975, #976, #977
+
+commit eb09426
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Fri Sep 5 12:48:30 2025 -0300
+
+    style(admin-panel): padroniza ícones do menu lateral
+    Merge pull request #978 from thiagorocha/style/padroniza-icones-do-menu-lateral
+
+commit 412cc89
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Fri Sep 5 18:36:03 2025 -0300
+
+    docs(search): adiciona guia de contribuição
+    Merge pull request #979 from lucasferreira/docs/adiciona-guia-de-contribuicao
+
+commit c754f79
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Fri Sep 5 23:31:50 2025 -0300
+
+    feat(notifications): implementa importação de dados via planilha
+    Merge pull request #980 from carlamendes/feat/implementa-importacao-de-dados-via
+
+commit 314d814
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Sat Sep 6 08:32:19 2025 -0300
+
+    security(notifications): corrige exposição de dados em endpoint de debug
+    Merge pull request #981 from patriciagomes/security/corrige-exposicao-de-dados-em
+
+commit ab91d41
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Sat Sep 6 16:38:06 2025 -0300
+
+    chore(billing): atualiza versão do runtime do Node.js
+    Merge pull request #982 from diegocastro/chore/atualiza-versao-do-runtime-do
+
+commit a1cd9cc
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Sat Sep 6 21:07:53 2025 -0300
+
+    test(mobile-api): corrige testes instáveis (flaky tests) na suíte de CI
+    Merge pull request #983 from patriciagomes/test/corrige-testes-instaveis-(flaky-tests)
+
+commit eb1c137
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Sun Sep 7 03:54:18 2025 -0300
+
+    security(checkout): corrige vulnerabilidade de XSS no formulário de contato
+    Merge pull request #984 from brunoalves/security/corrige-vulnerabilidade-de-xss-no
+
+commit 7798230
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Sun Sep 7 13:09:13 2025 -0300
+
+    docs(dashboard): adiciona exemplos de uso da API pública
+    Merge pull request #985 from lucasferreira/docs/adiciona-exemplos-de-uso-da
+
+commit 684b472
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Sun Sep 7 19:51:11 2025 -0300
+
+    perf(reports): otimiza carregamento de imagens (lazy loading)
+    Merge pull request #986 from marinasouza/perf/otimiza-carregamento-de-imagens-(lazy
+
+commit 108e3f1
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Sun Sep 7 22:53:00 2025 -0300
+
+    perf(checkout): reduz tempo de build do frontend
+    Merge pull request #987 from thiagorocha/perf/reduz-tempo-de-build-do
+
+commit 1405007
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Mon Sep 8 07:26:12 2025 -0300
+
+    test(mobile-api): adiciona testes de integração para módulo de checkout
+    Merge pull request #988 from marinasouza/test/adiciona-testes-de-integracao-para
+
+commit 71b4ba1
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Mon Sep 8 13:04:12 2025 -0300
+
+    refactor(public-api): reduz complexidade do componente de checkout
+    Merge pull request #989 from marinasouza/refactor/reduz-complexidade-do-componente-de
+
+commit 5c6f139
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Mon Sep 8 21:58:05 2025 -0300
+
+    docs(core): atualiza documentação da API no README
+    Merge pull request #990 from diegocastro/docs/atualiza-documentacao-da-api-no
+
+commit 3e254a7
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Tue Sep 9 02:19:00 2025 -0300
+
+    feat(auth): adiciona integração com gateway de pagamento
+    Merge pull request #991 from fernandalima/feat/adiciona-integracao-com-gateway-de
+
+commit 72880c6
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Tue Sep 9 08:35:44 2025 -0300
+
+    test(checkout): adiciona testes de integração para módulo de checkout
+    Merge pull request #992 from camiladuarte/test/adiciona-testes-de-integracao-para
+
+tag: v3.3.6
+Tagger: Vinicius Teixeira <vinicius.teixeira@empresa.com>
+Date:   Tue Sep 9 18:29:16 2025 -0300
+
+    Release v3.3.6
+    PRs incluídos: #987, #988, #989, #990, #991, #992
+
+commit f32594a
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Wed Sep 10 01:05:57 2025 -0300
+
+    chore(dashboard): limpa dependências não utilizadas
+    Merge pull request #993 from diegocastro/chore/limpa-dependencias-nao-utilizadas
+
+commit 0b4ea4a
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Wed Sep 10 07:38:48 2025 -0300
+
+    docs(reports): adiciona exemplos de uso da API pública
+    Merge pull request #994 from marinasouza/docs/adiciona-exemplos-de-uso-da
+
+commit 42228de
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Wed Sep 10 12:34:20 2025 -0300
+
+    docs(dashboard): documenta processo de deploy
+    Merge pull request #995 from carlamendes/docs/documenta-processo-de-deploy
+
+commit 97837fa
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Wed Sep 10 18:23:43 2025 -0300
+
+    test(search): corrige testes instáveis (flaky tests) na suíte de CI
+    Merge pull request #996 from marinasouza/test/corrige-testes-instaveis-(flaky-tests)
+
+commit 67ea482
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Thu Sep 11 03:04:03 2025 -0300
+
+    perf(mobile-api): reduz tamanho do bundle JavaScript
+    Merge pull request #997 from diegocastro/perf/reduz-tamanho-do-bundle-javascript
+
+commit ff8ad4d
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Thu Sep 11 09:33:29 2025 -0300
+
+    feat(admin-panel): implementa paginação infinita na listagem
+    Merge pull request #998 from brunoalves/feat/implementa-paginacao-infinita-na-listagem
+
+commit bb8811d
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Thu Sep 11 15:42:38 2025 -0300
+
+    feat(billing): adiciona suporte a webhooks
+    Merge pull request #999 from patriciagomes/feat/adiciona-suporte-a-webhooks
+
+commit fbd7ab1
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Thu Sep 11 22:07:28 2025 -0300
+
+    refactor(billing): migra chamadas de API para hooks customizados
+    Merge pull request #1000 from eduardopires/refactor/migra-chamadas-de-api-para
+
+commit efa1ace
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Fri Sep 12 04:15:22 2025 -0300
+
+    feat(admin-panel): adiciona suporte a múltiplos idiomas (i18n)
+    Merge pull request #1001 from diegocastro/feat/adiciona-suporte-a-multiplos-idiomas
+
+commit 54ea22d
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Fri Sep 12 11:14:23 2025 -0300
+
+    chore(checkout): migra pipeline de CI/CD para GitHub Actions
+    Merge pull request #1002 from carlamendes/chore/migra-pipeline-de-ci/cd-para
+
+tag: v3.3.7
+Tagger: Vinicius Teixeira <vinicius.teixeira@empresa.com>
+Date:   Fri Sep 12 20:51:44 2025 -0300
+
+    Release v3.3.7
+    PRs incluídos: #997, #998, #999, #1000, #1001, #1002
+
+commit 1a5dd9b
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Sat Sep 13 02:07:21 2025 -0300
+
+    refactor(auth): reorganiza estrutura de pastas do backend
+    Merge pull request #1003 from julianaramos/refactor/reorganiza-estrutura-de-pastas-do
+
+commit 31b5d5e
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Sat Sep 13 07:48:55 2025 -0300
+
+    docs(core): documenta processo de deploy
+    Merge pull request #1004 from eduardopires/docs/documenta-processo-de-deploy
+
+commit 2eda82c
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Sat Sep 13 16:41:02 2025 -0300
+
+    fix(public-api): corrige quebra de layout em telas menores
+    Merge pull request #1005 from camiladuarte/fix/corrige-quebra-de-layout-em
+
+commit c543a47
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Sat Sep 13 21:19:08 2025 -0300
+
+    refactor(billing): unifica tratamento de erros da API
+    Merge pull request #1006 from lucasferreira/refactor/unifica-tratamento-de-erros-da
+
+commit eec51c3
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Sun Sep 14 07:11:03 2025 -0300
+
+    feat(public-api): adiciona endpoint de exportação de relatórios em CSV
+    Merge pull request #1007 from diegocastro/feat/adiciona-endpoint-de-exportacao-de
+
+commit 9ad2b8e
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Sun Sep 14 13:32:20 2025 -0300
+
+    feat(search): adiciona API pública versionada
+    Merge pull request #1008 from lucasferreira/feat/adiciona-api-publica-versionada
+
+commit 473f65b
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Sun Sep 14 19:54:44 2025 -0300
+
+    security(billing): corrige exposição de dados em endpoint de debug
+    Merge pull request #1009 from patriciagomes/security/corrige-exposicao-de-dados-em
+
+commit cf51f77
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Mon Sep 15 00:29:33 2025 -0300
+
+    feat(reports): implementa autenticação via OAuth2
+    Merge pull request #1010 from camiladuarte/feat/implementa-autenticacao-via-oauth2
+
+commit eee6460
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Mon Sep 15 06:50:56 2025 -0300
+
+    style(checkout): ajusta paleta de cores para acessibilidade
+    Merge pull request #1011 from patriciagomes/style/ajusta-paleta-de-cores-para
+
+commit 480049b
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Mon Sep 15 14:26:50 2025 -0300
+
+    security(auth): implementa rate limiting na API pública
+    Merge pull request #1012 from fernandalima/security/implementa-rate-limiting-na-api
+
+commit a5342a9
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Mon Sep 15 20:02:09 2025 -0300
+
+    perf(billing): otimiza indexação de busca full-text
+    Merge pull request #1013 from lucasferreira/perf/otimiza-indexacao-de-busca-full-text
+
+commit d60ec1e
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Tue Sep 16 04:26:32 2025 -0300
+
+    refactor(auth): unifica tratamento de erros da API
+    Merge pull request #1014 from diegocastro/refactor/unifica-tratamento-de-erros-da
+
+commit b9dd1bb
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Tue Sep 16 09:45:30 2025 -0300
+
+    refactor(checkout): simplifica lógica de validação de formulários
+    Merge pull request #1015 from fernandalima/refactor/simplifica-logica-de-validacao-de
+
+tag: v3.4.0
+Tagger: Renata Bastos <renata.bastos@empresa.com>
+Date:   Tue Sep 16 17:08:15 2025 -0300
+
+    Release v3.4.0
+    PRs incluídos: #1010, #1011, #1012, #1013, #1014, #1015
+
+commit 520c786
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Tue Sep 16 23:29:25 2025 -0300
+
+    feat(dashboard): implementa paginação infinita na listagem
+    Merge pull request #1016 from julianaramos/feat/implementa-paginacao-infinita-na-listagem
+
+commit c0beada
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Wed Sep 17 06:17:28 2025 -0300
+
+    refactor(mobile-api): desacopla módulo de pagamentos do core
+    Merge pull request #1017 from thiagorocha/refactor/desacopla-modulo-de-pagamentos-do
+
+commit 420622c
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Wed Sep 17 15:51:24 2025 -0300
+
+    chore(notifications): atualiza imagem base do Docker
+    Merge pull request #1018 from diegocastro/chore/atualiza-imagem-base-do-docker
+
+commit e011706
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Wed Sep 17 21:03:44 2025 -0300
+
+    fix(notifications): corrige encoding incorreto em exportação CSV
+    Merge pull request #1019 from marinasouza/fix/corrige-encoding-incorreto-em-exportacao
+
+commit be82ee0
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Thu Sep 18 02:39:33 2025 -0300
+
+    perf(search): reduz tamanho do bundle JavaScript
+    Merge pull request #1020 from patriciagomes/perf/reduz-tamanho-do-bundle-javascript
+
+commit ebde71b
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Thu Sep 18 12:23:54 2025 -0300
+
+    fix(dashboard): corrige cálculo incorreto de impostos
+    Merge pull request #1021 from diegocastro/fix/corrige-calculo-incorreto-de-impostos
+
+commit 9133763
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Thu Sep 18 17:20:13 2025 -0300
+
+    security(auth): implementa rate limiting na API pública
+    Merge pull request #1022 from diegocastro/security/implementa-rate-limiting-na-api
+
+commit 8dd7e79
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Thu Sep 18 23:14:24 2025 -0300
+
+    docs(core): atualiza documentação da API no README
+    Merge pull request #1023 from patriciagomes/docs/atualiza-documentacao-da-api-no
+
+commit 9fa2087
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Fri Sep 19 04:56:21 2025 -0300
+
+    fix(notifications): corrige quebra de layout em telas menores
+    Merge pull request #1024 from lucasferreira/fix/corrige-quebra-de-layout-em
+
+commit 795e227
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Fri Sep 19 13:44:59 2025 -0300
+
+    perf(auth): reduz tempo de build do frontend
+    Merge pull request #1025 from diegocastro/perf/reduz-tempo-de-build-do
+
+commit f5344b2
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Fri Sep 19 19:31:36 2025 -0300
+
+    feat(billing): implementa paginação infinita na listagem
+    Merge pull request #1026 from eduardopires/feat/implementa-paginacao-infinita-na-listagem
+
+commit b65abb4
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Sat Sep 20 04:33:26 2025 -0300
+
+    perf(auth): otimiza carregamento de imagens (lazy loading)
+    Merge pull request #1027 from eduardopires/perf/otimiza-carregamento-de-imagens-(lazy
+
+commit d235fd1
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Sat Sep 20 09:40:28 2025 -0300
+
+    feat(core): implementa importação de dados via planilha
+    Merge pull request #1028 from fernandalima/feat/implementa-importacao-de-dados-via
+
+tag: v3.4.1
+Tagger: Renata Bastos <renata.bastos@empresa.com>
+Date:   Sat Sep 20 16:09:40 2025 -0300
+
+    Release v3.4.1
+    PRs incluídos: #1023, #1024, #1025, #1026, #1027, #1028
+
+commit 002e7f6
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Sat Sep 20 22:53:48 2025 -0300
+
+    perf(public-api): otimiza consultas ao banco de dados
+    Merge pull request #1029 from diegocastro/perf/otimiza-consultas-ao-banco-de
+
+commit 546ce63
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Sun Sep 21 04:00:13 2025 -0300
+
+    style(mobile-api): padroniza ícones do menu lateral
+    Merge pull request #1030 from fernandalima/style/padroniza-icones-do-menu-lateral
+
+commit b1a19bb
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Sun Sep 21 14:09:30 2025 -0300
+
+    style(reports): ajusta paleta de cores para acessibilidade
+    Merge pull request #1031 from camiladuarte/style/ajusta-paleta-de-cores-para
+
+commit c8fdc06
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Sun Sep 21 18:25:22 2025 -0300
+
+    feat(notifications): adiciona modo escuro na interface
+    Merge pull request #1032 from carlamendes/feat/adiciona-modo-escuro-na-interface
+
+commit 8ec0966
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Mon Sep 22 03:27:59 2025 -0300
+
+    feat(core): implementa paginação infinita na listagem
+    Merge pull request #1033 from marinasouza/feat/implementa-paginacao-infinita-na-listagem
+
+commit 1ccff86
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Mon Sep 22 10:08:24 2025 -0300
+
+    security(public-api): corrige exposição de dados em endpoint de debug
+    Merge pull request #1034 from rafaelnunes/security/corrige-exposicao-de-dados-em
+
+commit 94448d9
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Mon Sep 22 13:41:29 2025 -0300
+
+    refactor(dashboard): unifica tratamento de erros da API
+    Merge pull request #1035 from marinasouza/refactor/unifica-tratamento-de-erros-da
+
+commit b127703
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Tue Sep 23 00:18:54 2025 -0300
+
+    refactor(dashboard): unifica tratamento de erros da API
+    Merge pull request #1036 from thiagorocha/refactor/unifica-tratamento-de-erros-da
+
+commit b14db8d
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Tue Sep 23 04:57:06 2025 -0300
+
+    test(webhooks): adiciona testes end-to-end para fluxo de compra
+    Merge pull request #1037 from marinasouza/test/adiciona-testes-end-to-end-para-fluxo
+
+commit 10ee0f8
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Tue Sep 23 12:30:40 2025 -0300
+
+    security(auth): adiciona validação contra SQL injection
+    Merge pull request #1038 from marinasouza/security/adiciona-validacao-contra-sql-injection
+
+commit 8bb8103
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Tue Sep 23 19:05:49 2025 -0300
+
+    test(public-api): aumenta cobertura de testes do módulo de usuários
+    Merge pull request #1039 from brunoalves/test/aumenta-cobertura-de-testes-do
+
+commit 2c2a377
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Wed Sep 24 00:14:31 2025 -0300
+
+    docs(admin-panel): adiciona exemplos de uso da API pública
+    Merge pull request #1040 from patriciagomes/docs/adiciona-exemplos-de-uso-da
+
+commit 38ba4b1
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Wed Sep 24 06:37:09 2025 -0300
+
+    fix(reports): resolve vazamento de memória no worker de filas
+    Merge pull request #1041 from lucasferreira/fix/resolve-vazamento-de-memoria-no
+
+commit 0da22e2
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Wed Sep 24 14:55:34 2025 -0300
+
+    docs(notifications): documenta processo de deploy
+    Merge pull request #1042 from carlamendes/docs/documenta-processo-de-deploy
+
+commit ef0e921
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Wed Sep 24 20:57:05 2025 -0300
+
+    security(mobile-api): implementa rate limiting na API pública
+    Merge pull request #1043 from eduardopires/security/implementa-rate-limiting-na-api
+
+commit 9585422
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Thu Sep 25 04:26:21 2025 -0300
+
+    chore(core): atualiza versão do runtime do Node.js
+    Merge pull request #1044 from julianaramos/chore/atualiza-versao-do-runtime-do
+
+commit 6fbeef3
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Thu Sep 25 12:40:21 2025 -0300
+
+    perf(search): otimiza carregamento de imagens (lazy loading)
+    Merge pull request #1045 from julianaramos/perf/otimiza-carregamento-de-imagens-(lazy
+
+commit c1f91a2
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Thu Sep 25 19:47:37 2025 -0300
+
+    test(public-api): adiciona testes unitários para serviço de notificações
+    Merge pull request #1046 from marinasouza/test/adiciona-testes-unitarios-para-servico
+
+commit 29a198b
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Fri Sep 26 01:18:55 2025 -0300
+
+    test(billing): adiciona testes unitários para serviço de notificações
+    Merge pull request #1047 from camiladuarte/test/adiciona-testes-unitarios-para-servico
+
+commit 00cfdb1
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Fri Sep 26 05:50:17 2025 -0300
+
+    docs(admin-panel): atualiza documentação da API no README
+    Merge pull request #1048 from camiladuarte/docs/atualiza-documentacao-da-api-no
+
+tag: v3.4.2
+Tagger: Aline Correia <aline.correia@empresa.com>
+Date:   Fri Sep 26 12:59:20 2025 -0300
+
+    Release v3.4.2
+    PRs incluídos: #1043, #1044, #1045, #1046, #1047, #1048
+
+commit 23ffdd9
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Fri Sep 26 18:57:42 2025 -0300
+
+    style(checkout): padroniza ícones do menu lateral
+    Merge pull request #1049 from carlamendes/style/padroniza-icones-do-menu-lateral
+
+commit 2f95a2f
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Sat Sep 27 02:02:56 2025 -0300
+
+    docs(webhooks): adiciona exemplos de uso da API pública
+    Merge pull request #1050 from diegocastro/docs/adiciona-exemplos-de-uso-da
+
+commit e30e625
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Sat Sep 27 10:47:07 2025 -0300
+
+    style(webhooks): ajusta paleta de cores para acessibilidade
+    Merge pull request #1051 from eduardopires/style/ajusta-paleta-de-cores-para
+
+commit 428f494
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Sat Sep 27 17:05:51 2025 -0300
+
+    feat(auth): implementa paginação infinita na listagem
+    Merge pull request #1052 from eduardopires/feat/implementa-paginacao-infinita-na-listagem
+
+commit fa3c4c0
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Sat Sep 27 22:05:50 2025 -0300
+
+    security(reports): corrige vulnerabilidade de XSS no formulário de contato
+    Merge pull request #1053 from eduardopires/security/corrige-vulnerabilidade-de-xss-no
+
+commit 0d7217d
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Sun Sep 28 05:35:44 2025 -0300
+
+    test(search): adiciona testes unitários para serviço de notificações
+    Merge pull request #1054 from diegocastro/test/adiciona-testes-unitarios-para-servico
+
+commit 6ac6ccd
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Sun Sep 28 15:21:55 2025 -0300
+
+    style(mobile-api): padroniza ícones do menu lateral
+    Merge pull request #1055 from camiladuarte/style/padroniza-icones-do-menu-lateral
+
+commit 257b207
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Sun Sep 28 19:52:02 2025 -0300
+
+    style(checkout): ajusta paleta de cores para acessibilidade
+    Merge pull request #1056 from rafaelnunes/style/ajusta-paleta-de-cores-para
+
+commit 59d6d4e
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Mon Sep 29 02:19:46 2025 -0300
+
+    test(mobile-api): adiciona testes de integração para módulo de checkout
+    Merge pull request #1057 from lucasferreira/test/adiciona-testes-de-integracao-para
+
+commit 4a3dde0
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Mon Sep 29 08:15:42 2025 -0300
+
+    docs(admin-panel): atualiza changelog do projeto
+    Merge pull request #1058 from brunoalves/docs/atualiza-changelog-do-projeto
+
+commit f08066e
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Mon Sep 29 16:54:24 2025 -0300
+
+    refactor(admin-panel): migra chamadas de API para hooks customizados
+    Merge pull request #1059 from lucasferreira/refactor/migra-chamadas-de-api-para
+
+commit b52ee4f
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Tue Sep 30 01:06:22 2025 -0300
+
+    perf(billing): otimiza consultas ao banco de dados
+    Merge pull request #1060 from eduardopires/perf/otimiza-consultas-ao-banco-de
+
+commit e596e18
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Tue Sep 30 05:29:50 2025 -0300
+
+    style(notifications): ajusta paleta de cores para acessibilidade
+    Merge pull request #1061 from diegocastro/style/ajusta-paleta-de-cores-para
+
+commit 3c13bdd
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Tue Sep 30 13:41:58 2025 -0300
+
+    style(notifications): padroniza ícones do menu lateral
+    Merge pull request #1062 from marinasouza/style/padroniza-icones-do-menu-lateral
+
+commit 53bb64e
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Tue Sep 30 19:05:03 2025 -0300
+
+    docs(search): atualiza documentação da API no README
+    Merge pull request #1063 from fernandalima/docs/atualiza-documentacao-da-api-no
+
+commit 8e5f99e
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Wed Oct 1 02:42:42 2025 -0300
+
+    security(mobile-api): adiciona validação contra SQL injection
+    Merge pull request #1064 from brunoalves/security/adiciona-validacao-contra-sql-injection
+
+commit 6208717
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Wed Oct 1 06:53:00 2025 -0300
+
+    fix(admin-panel): corrige ordenação incorreta na busca
+    Merge pull request #1065 from carlamendes/fix/corrige-ordenacao-incorreta-na-busca
+
+tag: v3.4.3
+Tagger: Renata Bastos <renata.bastos@empresa.com>
+Date:   Wed Oct 1 13:52:58 2025 -0300
+
+    Release v3.4.3
+    PRs incluídos: #1060, #1061, #1062, #1063, #1064, #1065
+
+commit fa41ce6
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Wed Oct 1 23:47:41 2025 -0300
+
+    test(reports): adiciona testes unitários para serviço de notificações
+    Merge pull request #1066 from rafaelnunes/test/adiciona-testes-unitarios-para-servico
+
+commit 30295a9
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Thu Oct 2 04:58:56 2025 -0300
+
+    feat(mobile-api): implementa histórico de alterações (audit log)
+    Merge pull request #1067 from patriciagomes/feat/implementa-historico-de-alteracoes-(audit
+
+commit c962333
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Thu Oct 2 10:23:58 2025 -0300
+
+    feat(auth): implementa dashboard de métricas em tempo real
+    Merge pull request #1068 from thiagorocha/feat/implementa-dashboard-de-metricas-em
+
+commit 50b1a29
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Thu Oct 2 20:25:47 2025 -0300
+
+    fix(public-api): corrige duplicidade de registros na sincronização
+    Merge pull request #1069 from lucasferreira/fix/corrige-duplicidade-de-registros-na
+
+commit 74bbf6d
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Fri Oct 3 00:24:26 2025 -0300
+
+    security(search): corrige exposição de dados em endpoint de debug
+    Merge pull request #1070 from rafaelnunes/security/corrige-exposicao-de-dados-em
+
+commit 9cba3d5
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Fri Oct 3 09:56:25 2025 -0300
+
+    fix(notifications): resolve falha de conexão com banco em produção
+    Merge pull request #1071 from thiagorocha/fix/resolve-falha-de-conexao-com
+
+commit e5c0967
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Fri Oct 3 14:44:01 2025 -0300
+
+    style(auth): ajusta espaçamento e tipografia da interface
+    Merge pull request #1072 from julianaramos/style/ajusta-espacamento-e-tipografia-da
+
+commit e03010b
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Fri Oct 3 23:18:21 2025 -0300
+
+    chore(dashboard): reorganiza arquivos de configuração
+    Merge pull request #1073 from fernandalima/chore/reorganiza-arquivos-de-configuracao
+
+commit ded22ee
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Sat Oct 4 06:17:56 2025 -0300
+
+    docs(admin-panel): adiciona exemplos de uso da API pública
+    Merge pull request #1074 from fernandalima/docs/adiciona-exemplos-de-uso-da
+
+commit 33111e7
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Sat Oct 4 09:12:54 2025 -0300
+
+    feat(core): adiciona suporte a múltiplos idiomas (i18n)
+    Merge pull request #1075 from fernandalima/feat/adiciona-suporte-a-multiplos-idiomas
+
+commit bb13286
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Sat Oct 4 16:31:04 2025 -0300
+
+    docs(admin-panel): adiciona guia de contribuição
+    Merge pull request #1076 from carlamendes/docs/adiciona-guia-de-contribuicao
+
+commit 5efe18b
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Sun Oct 5 01:43:11 2025 -0300
+
+    feat(webhooks): adiciona suporte a temas customizados
+    Merge pull request #1077 from diegocastro/feat/adiciona-suporte-a-temas-customizados
+
+commit dda3125
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Sun Oct 5 07:14:00 2025 -0300
+
+    style(mobile-api): ajusta paleta de cores para acessibilidade
+    Merge pull request #1078 from fernandalima/style/ajusta-paleta-de-cores-para
+
+commit 9f341ee
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Sun Oct 5 13:48:16 2025 -0300
+
+    test(public-api): adiciona testes end-to-end para fluxo de compra
+    Merge pull request #1079 from camiladuarte/test/adiciona-testes-end-to-end-para-fluxo
+
+commit ad8b27a
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Sun Oct 5 19:16:39 2025 -0300
+
+    test(core): corrige testes instáveis (flaky tests) na suíte de CI
+    Merge pull request #1080 from brunoalves/test/corrige-testes-instaveis-(flaky-tests)
+
+tag: v3.4.4
+Tagger: Aline Correia <aline.correia@empresa.com>
+Date:   Mon Oct 6 04:56:18 2025 -0300
+
+    Release v3.4.4
+    PRs incluídos: #1075, #1076, #1077, #1078, #1079, #1080
+
+commit 6da566b
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Mon Oct 6 09:37:02 2025 -0300
+
+    style(webhooks): padroniza ícones do menu lateral
+    Merge pull request #1081 from brunoalves/style/padroniza-icones-do-menu-lateral
+
+commit 014e936
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Mon Oct 6 15:49:50 2025 -0300
+
+    docs(core): atualiza changelog do projeto
+    Merge pull request #1082 from julianaramos/docs/atualiza-changelog-do-projeto
+
+commit 0951815
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Mon Oct 6 22:34:57 2025 -0300
+
+    test(core): adiciona testes unitários para serviço de notificações
+    Merge pull request #1083 from lucasferreira/test/adiciona-testes-unitarios-para-servico
+
+commit 9fbea27
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Tue Oct 7 07:14:38 2025 -0300
+
+    fix(dashboard): corrige botão de cancelamento não responsivo
+    Merge pull request #1084 from lucasferreira/fix/corrige-botao-de-cancelamento-nao
+
+commit b933ef9
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Tue Oct 7 11:23:23 2025 -0300
+
+    refactor(core): migra chamadas de API para hooks customizados
+    Merge pull request #1085 from patriciagomes/refactor/migra-chamadas-de-api-para
+
+commit 77e8a1e
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Tue Oct 7 21:44:29 2025 -0300
+
+    security(notifications): corrige vulnerabilidade de XSS no formulário de contato
+    Merge pull request #1086 from carlamendes/security/corrige-vulnerabilidade-de-xss-no
+
+commit 1675483
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Wed Oct 8 03:08:27 2025 -0300
+
+    perf(admin-panel): otimiza indexação de busca full-text
+    Merge pull request #1087 from camiladuarte/perf/otimiza-indexacao-de-busca-full-text
+
+commit ce14ee4
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Wed Oct 8 11:03:17 2025 -0300
+
+    style(search): ajusta espaçamento e tipografia da interface
+    Merge pull request #1088 from marinasouza/style/ajusta-espacamento-e-tipografia-da
+
+commit f824162
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Wed Oct 8 17:13:17 2025 -0300
+
+    style(public-api): ajusta paleta de cores para acessibilidade
+    Merge pull request #1089 from eduardopires/style/ajusta-paleta-de-cores-para
+
+commit 589c62c
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Thu Oct 9 00:36:23 2025 -0300
+
+    style(search): ajusta paleta de cores para acessibilidade
+    Merge pull request #1090 from carlamendes/style/ajusta-paleta-de-cores-para
+
+tag: v3.4.5
+Tagger: Renata Bastos <renata.bastos@empresa.com>
+Date:   Thu Oct 9 04:28:22 2025 -0300
+
+    Release v3.4.5
+    PRs incluídos: #1085, #1086, #1087, #1088, #1089, #1090
+
+commit da56078
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Thu Oct 9 14:08:23 2025 -0300
+
+    refactor(auth): simplifica lógica de validação de formulários
+    Merge pull request #1091 from carlamendes/refactor/simplifica-logica-de-validacao-de
+
+commit ecd7ccf
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Thu Oct 9 21:04:33 2025 -0300
+
+    test(billing): corrige testes instáveis (flaky tests) na suíte de CI
+    Merge pull request #1092 from fernandalima/test/corrige-testes-instaveis-(flaky-tests)
+
+commit d3aa54f
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Fri Oct 10 00:14:18 2025 -0300
+
+    refactor(billing): extrai serviço de notificações para módulo próprio
+    Merge pull request #1093 from carlamendes/refactor/extrai-servico-de-notificacoes-para
+
+commit 2b446ca
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Fri Oct 10 10:21:17 2025 -0300
+
+    test(mobile-api): adiciona testes unitários para serviço de notificações
+    Merge pull request #1094 from brunoalves/test/adiciona-testes-unitarios-para-servico
+
+commit 4b55dd7
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Fri Oct 10 13:41:26 2025 -0300
+
+    feat(search): implementa dashboard de métricas em tempo real
+    Merge pull request #1095 from thiagorocha/feat/implementa-dashboard-de-metricas-em
+
+commit af1defc
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Fri Oct 10 23:42:31 2025 -0300
+
+    test(dashboard): aumenta cobertura de testes do módulo de usuários
+    Merge pull request #1096 from carlamendes/test/aumenta-cobertura-de-testes-do
+
+commit 97e5d13
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Sat Oct 11 04:17:51 2025 -0300
+
+    test(checkout): adiciona testes end-to-end para fluxo de compra
+    Merge pull request #1097 from lucasferreira/test/adiciona-testes-end-to-end-para-fluxo
+
+commit e04713e
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Sat Oct 11 12:22:33 2025 -0300
+
+    perf(public-api): otimiza indexação de busca full-text
+    Merge pull request #1098 from patriciagomes/perf/otimiza-indexacao-de-busca-full-text
+
+commit 5016054
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Sat Oct 11 17:18:11 2025 -0300
+
+    refactor(core): reorganiza estrutura de pastas do backend
+    Merge pull request #1099 from diegocastro/refactor/reorganiza-estrutura-de-pastas-do
+
+commit f50ba21
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Sun Oct 12 02:15:05 2025 -0300
+
+    fix(auth): corrige inconsistência de fuso horário nos relatórios
+    Merge pull request #1100 from thiagorocha/fix/corrige-inconsistencia-de-fuso-horario
+
+commit 6da62b0
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Sun Oct 12 06:24:02 2025 -0300
+
+    docs(admin-panel): atualiza documentação da API no README
+    Merge pull request #1101 from diegocastro/docs/atualiza-documentacao-da-api-no
+
+commit 7147dc4
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Sun Oct 12 14:13:21 2025 -0300
+
+    test(billing): aumenta cobertura de testes do módulo de usuários
+    Merge pull request #1102 from thiagorocha/test/aumenta-cobertura-de-testes-do
+
+tag: v3.4.6
+Tagger: Renata Bastos <renata.bastos@empresa.com>
+Date:   Sun Oct 12 19:55:32 2025 -0300
+
+    Release v3.4.6
+    PRs incluídos: #1097, #1098, #1099, #1100, #1101, #1102
+
+commit a4ec0f0
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Mon Oct 13 03:21:26 2025 -0300
+
+    perf(webhooks): otimiza indexação de busca full-text
+    Merge pull request #1103 from diegocastro/perf/otimiza-indexacao-de-busca-full-text
+
+commit 7973f39
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Mon Oct 13 12:48:20 2025 -0300
+
+    test(billing): aumenta cobertura de testes do módulo de usuários
+    Merge pull request #1104 from rafaelnunes/test/aumenta-cobertura-de-testes-do
+
+commit 500f481
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Mon Oct 13 18:14:07 2025 -0300
+
+    refactor(dashboard): extrai serviço de notificações para módulo próprio
+    Merge pull request #1105 from julianaramos/refactor/extrai-servico-de-notificacoes-para
+
+commit c3a3c16
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Mon Oct 13 23:41:48 2025 -0300
+
+    chore(notifications): atualiza biblioteca de testes
+    Merge pull request #1106 from camiladuarte/chore/atualiza-biblioteca-de-testes
+
+commit 48ee550
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Tue Oct 14 08:06:43 2025 -0300
+
+    security(mobile-api): adiciona validação contra SQL injection
+    Merge pull request #1107 from patriciagomes/security/adiciona-validacao-contra-sql-injection
+
+commit 89ca5c9
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Tue Oct 14 15:38:34 2025 -0300
+
+    style(dashboard): ajusta paleta de cores para acessibilidade
+    Merge pull request #1108 from rafaelnunes/style/ajusta-paleta-de-cores-para
+
+commit 3bd78df
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Tue Oct 14 21:48:33 2025 -0300
+
+    docs(billing): atualiza documentação da API no README
+    Merge pull request #1109 from marinasouza/docs/atualiza-documentacao-da-api-no
+
+commit 70f4643
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Wed Oct 15 04:39:35 2025 -0300
+
+    security(search): corrige vulnerabilidade de XSS no formulário de contato
+    Merge pull request #1110 from diegocastro/security/corrige-vulnerabilidade-de-xss-no
+
+commit de497cb
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Wed Oct 15 11:21:58 2025 -0300
+
+    style(reports): ajusta paleta de cores para acessibilidade
+    Merge pull request #1111 from rafaelnunes/style/ajusta-paleta-de-cores-para
+
+commit 7163fb7
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Wed Oct 15 15:49:50 2025 -0300
+
+    test(public-api): corrige testes instáveis (flaky tests) na suíte de CI
+    Merge pull request #1112 from brunoalves/test/corrige-testes-instaveis-(flaky-tests)
+
+commit 5e92bba
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Thu Oct 16 00:19:51 2025 -0300
+
+    fix(mobile-api): resolve falha de autenticação após expiração de token
+    Merge pull request #1113 from camiladuarte/fix/resolve-falha-de-autenticacao-apos
+
+commit 8f7c3c8
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Thu Oct 16 08:16:21 2025 -0300
+
+    feat(auth): adiciona integração com gateway de pagamento
+    Merge pull request #1114 from camiladuarte/feat/adiciona-integracao-com-gateway-de
+
+commit 003c12d
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Thu Oct 16 15:05:32 2025 -0300
+
+    security(public-api): atualiza dependência com CVE crítico
+    Merge pull request #1115 from camiladuarte/security/atualiza-dependencia-com-cve-critico
+
+commit 33843d7
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Thu Oct 16 22:00:09 2025 -0300
+
+    chore(mobile-api): remove código legado não utilizado
+    Merge pull request #1116 from carlamendes/chore/remove-codigo-legado-nao-utilizado
+
+commit c8826b1
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Fri Oct 17 04:21:44 2025 -0300
+
+    fix(notifications): corrige exibição de dados sensíveis no log
+    Merge pull request #1117 from carlamendes/fix/corrige-exibicao-de-dados-sensiveis
+
+tag: v3.4.7
+Tagger: Aline Correia <aline.correia@empresa.com>
+Date:   Fri Oct 17 09:45:20 2025 -0300
+
+    Release v3.4.7
+    PRs incluídos: #1112, #1113, #1114, #1115, #1116, #1117
+
+commit 49d8835
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Fri Oct 17 16:05:46 2025 -0300
+
+    perf(mobile-api): otimiza indexação de busca full-text
+    Merge pull request #1118 from brunoalves/perf/otimiza-indexacao-de-busca-full-text
+
+commit 9660095
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Fri Oct 17 23:01:19 2025 -0300
+
+    style(notifications): ajusta paleta de cores para acessibilidade
+    Merge pull request #1119 from brunoalves/style/ajusta-paleta-de-cores-para
+
+commit a1ec6e8
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Sat Oct 18 05:58:12 2025 -0300
+
+    docs(public-api): adiciona exemplos de uso da API pública
+    Merge pull request #1120 from marinasouza/docs/adiciona-exemplos-de-uso-da
+
+commit 3fe5848
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Sat Oct 18 12:03:59 2025 -0300
+
+    test(admin-panel): corrige testes instáveis (flaky tests) na suíte de CI
+    Merge pull request #1121 from marinasouza/test/corrige-testes-instaveis-(flaky-tests)
+
+commit 7b104a2
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Sat Oct 18 20:42:25 2025 -0300
+
+    chore(dashboard): limpa dependências não utilizadas
+    Merge pull request #1122 from brunoalves/chore/limpa-dependencias-nao-utilizadas
+
+commit 5dee671
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Sun Oct 19 02:25:58 2025 -0300
+
+    perf(billing): reduz tamanho do bundle JavaScript
+    Merge pull request #1123 from camiladuarte/perf/reduz-tamanho-do-bundle-javascript
+
+commit 796cd91
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Sun Oct 19 09:24:54 2025 -0300
+
+    docs(reports): adiciona exemplos de uso da API pública
+    Merge pull request #1124 from patriciagomes/docs/adiciona-exemplos-de-uso-da
+
+commit 504fb06
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Sun Oct 19 14:11:23 2025 -0300
+
+    feat(core): adiciona exportação de dados em PDF
+    Merge pull request #1125 from marinasouza/feat/adiciona-exportacao-de-dados-em
+
+commit 0cb8a9e
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Sun Oct 19 23:10:14 2025 -0300
+
+    chore(auth): atualiza versão do runtime do Node.js
+    Merge pull request #1126 from diegocastro/chore/atualiza-versao-do-runtime-do
+
+commit 3d3fe1f
+Author: Aline Correia <aline.correia@empresa.com>
+Date:   Mon Oct 20 03:44:56 2025 -0300
+
+    test(admin-panel): corrige testes instáveis (flaky tests) na suíte de CI
+    Merge pull request #1127 from alinecorreia/test/corrige-testes-instaveis-(flaky-tests)
+
+tag: v3.4.8
+Tagger: Renata Bastos <renata.bastos@empresa.com>
+Date:   Mon Oct 20 10:19:41 2025 -0300
+
+    Release v3.4.8
+    PRs incluídos: #1122, #1123, #1124, #1125, #1126, #1127
+
+commit b38c478
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Mon Oct 20 19:51:47 2025 -0300
+
+    docs(admin-panel): documenta processo de deploy
+    Merge pull request #1128 from thiagorocha/docs/documenta-processo-de-deploy
+
+commit b38ab2a
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Tue Oct 21 03:12:02 2025 -0300
+
+    fix(public-api): resolve travamento ao anexar múltiplos arquivos
+    Merge pull request #1129 from patriciagomes/fix/resolve-travamento-ao-anexar-multiplos
+
+commit bb7a11c
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Tue Oct 21 08:34:32 2025 -0300
+
+    test(billing): corrige testes instáveis (flaky tests) na suíte de CI
+    Merge pull request #1130 from thiagorocha/test/corrige-testes-instaveis-(flaky-tests)
+
+commit 2281230
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Tue Oct 21 14:39:39 2025 -0300
+
+    refactor(dashboard): extrai serviço de notificações para módulo próprio
+    Merge pull request #1131 from thiagorocha/refactor/extrai-servico-de-notificacoes-para
+
+commit c338d9f
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Tue Oct 21 20:41:36 2025 -0300
+
+    chore(dashboard): atualiza biblioteca de testes
+    Merge pull request #1132 from diegocastro/chore/atualiza-biblioteca-de-testes
+
+commit a31cd18
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Wed Oct 22 02:46:35 2025 -0300
+
+    docs(webhooks): atualiza changelog do projeto
+    Merge pull request #1133 from julianaramos/docs/atualiza-changelog-do-projeto
+
+commit cbafa6e
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Wed Oct 22 12:17:39 2025 -0300
+
+    fix(search): corrige erro de validação no formulário de cadastro
+    Merge pull request #1134 from patriciagomes/fix/corrige-erro-de-validacao-no
+
+commit d2e5586
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Wed Oct 22 19:09:19 2025 -0300
+
+    refactor(mobile-api): reorganiza estrutura de pastas do backend
+    Merge pull request #1135 from patriciagomes/refactor/reorganiza-estrutura-de-pastas-do
+
+commit 34d13d8
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Thu Oct 23 00:27:11 2025 -0300
+
+    chore(core): reorganiza arquivos de configuração
+    Merge pull request #1136 from marinasouza/chore/reorganiza-arquivos-de-configuracao
+
+commit 5b800ba
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Thu Oct 23 06:10:08 2025 -0300
+
+    refactor(dashboard): refatora camada de acesso a dados
+    Merge pull request #1137 from eduardopires/refactor/refatora-camada-de-acesso-a
+
+commit eeb44f8
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Thu Oct 23 16:03:22 2025 -0300
+
+    refactor(search): reorganiza estrutura de pastas do backend
+    Merge pull request #1138 from diegocastro/refactor/reorganiza-estrutura-de-pastas-do
+
+commit be95b43
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Thu Oct 23 18:47:38 2025 -0300
+
+    fix(reports): resolve falha no reenvio de e-mails de confirmação
+    Merge pull request #1139 from julianaramos/fix/resolve-falha-no-reenvio-de
+
+commit 4ae141a
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Fri Oct 24 02:10:56 2025 -0300
+
+    style(reports): ajusta paleta de cores para acessibilidade
+    Merge pull request #1140 from camiladuarte/style/ajusta-paleta-de-cores-para
+
+commit 71167e2
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Fri Oct 24 09:22:03 2025 -0300
+
+    feat(reports): adiciona modo escuro na interface
+    Merge pull request #1141 from julianaramos/feat/adiciona-modo-escuro-na-interface
+
+commit 680d42a
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Fri Oct 24 18:16:35 2025 -0300
+
+    perf(reports): otimiza consultas ao banco de dados
+    Merge pull request #1142 from diegocastro/perf/otimiza-consultas-ao-banco-de
+
+commit 508dc63
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Sat Oct 25 00:53:16 2025 -0300
+
+    style(webhooks): ajusta espaçamento e tipografia da interface
+    Merge pull request #1143 from diegocastro/style/ajusta-espacamento-e-tipografia-da
+
+commit 814a8aa
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Sat Oct 25 06:47:57 2025 -0300
+
+    fix(search): corrige timeout na chamada de API de pagamentos
+    Merge pull request #1144 from rafaelnunes/fix/corrige-timeout-na-chamada-de
+
+tag: v3.5.0
+Tagger: Bruno Alves <bruno.alves@empresa.com>
+Date:   Sat Oct 25 11:34:33 2025 -0300
+
+    Release v3.5.0
+    PRs incluídos: #1139, #1140, #1141, #1142, #1143, #1144
+
+commit e802b30
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Sat Oct 25 19:21:45 2025 -0300
+
+    style(mobile-api): ajusta paleta de cores para acessibilidade
+    Merge pull request #1145 from rafaelnunes/style/ajusta-paleta-de-cores-para
+
+commit 24a7b9a
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Sun Oct 26 01:03:56 2025 -0300
+
+    test(public-api): adiciona testes unitários para serviço de notificações
+    Merge pull request #1146 from thiagorocha/test/adiciona-testes-unitarios-para-servico
+
+commit 5582d1e
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Sun Oct 26 08:58:52 2025 -0300
+
+    style(core): ajusta paleta de cores para acessibilidade
+    Merge pull request #1147 from carlamendes/style/ajusta-paleta-de-cores-para
+
+commit d028124
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Sun Oct 26 16:27:53 2025 -0300
+
+    fix(notifications): corrige botão de cancelamento não responsivo
+    Merge pull request #1148 from rafaelnunes/fix/corrige-botao-de-cancelamento-nao
+
+commit 67944cf
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Sun Oct 26 23:15:29 2025 -0300
+
+    style(mobile-api): ajusta espaçamento e tipografia da interface
+    Merge pull request #1149 from marinasouza/style/ajusta-espacamento-e-tipografia-da
+
+commit 39d9a51
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Mon Oct 27 06:21:05 2025 -0300
+
+    fix(mobile-api): resolve falha de autenticação após expiração de token
+    Merge pull request #1150 from marinasouza/fix/resolve-falha-de-autenticacao-apos
+
+commit 51af950
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Mon Oct 27 11:04:08 2025 -0300
+
+    test(public-api): adiciona testes end-to-end para fluxo de compra
+    Merge pull request #1151 from brunoalves/test/adiciona-testes-end-to-end-para-fluxo
+
+commit 12413b4
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Mon Oct 27 18:34:57 2025 -0300
+
+    feat(webhooks): implementa histórico de alterações (audit log)
+    Merge pull request #1152 from lucasferreira/feat/implementa-historico-de-alteracoes-(audit
+
+commit 0cd9331
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Tue Oct 28 01:47:18 2025 -0300
+
+    test(reports): corrige testes instáveis (flaky tests) na suíte de CI
+    Merge pull request #1153 from rafaelnunes/test/corrige-testes-instaveis-(flaky-tests)
+
+commit c2bd024
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Tue Oct 28 10:21:40 2025 -0300
+
+    style(notifications): padroniza ícones do menu lateral
+    Merge pull request #1154 from thiagorocha/style/padroniza-icones-do-menu-lateral
+
+commit 9e591a4
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Tue Oct 28 17:20:02 2025 -0300
+
+    chore(checkout): atualiza biblioteca de testes
+    Merge pull request #1155 from brunoalves/chore/atualiza-biblioteca-de-testes
+
+tag: v4.0.0
+Tagger: Renata Bastos <renata.bastos@empresa.com>
+Date:   Tue Oct 28 23:13:47 2025 -0300
+
+    Release v4.0.0
+    PRs incluídos: #1150, #1151, #1152, #1153, #1154, #1155
+
+commit 1a699ed
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Wed Oct 29 06:39:27 2025 -0300
+
+    refactor(auth): extrai serviço de notificações para módulo próprio
+    Merge pull request #1156 from eduardopires/refactor/extrai-servico-de-notificacoes-para
+
+commit c2112e4
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Wed Oct 29 10:56:12 2025 -0300
+
+    style(webhooks): ajusta espaçamento e tipografia da interface
+    Merge pull request #1157 from julianaramos/style/ajusta-espacamento-e-tipografia-da
+
+commit 608a6bb
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Wed Oct 29 16:59:17 2025 -0300
+
+    security(admin-panel): corrige vulnerabilidade de XSS no formulário de contato
+    Merge pull request #1158 from patriciagomes/security/corrige-vulnerabilidade-de-xss-no
+
+commit 15d540f
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Thu Oct 30 01:59:38 2025 -0300
+
+    fix(admin-panel): corrige inconsistência de fuso horário nos relatórios
+    Merge pull request #1159 from camiladuarte/fix/corrige-inconsistencia-de-fuso-horario
+
+commit 32d78ab
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Thu Oct 30 09:15:10 2025 -0300
+
+    perf(mobile-api): otimiza carregamento de imagens (lazy loading)
+    Merge pull request #1160 from fernandalima/perf/otimiza-carregamento-de-imagens-(lazy
+
+commit 8b8c1bf
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Thu Oct 30 13:05:57 2025 -0300
+
+    test(public-api): adiciona testes de integração para módulo de checkout
+    Merge pull request #1161 from rafaelnunes/test/adiciona-testes-de-integracao-para
+
+commit 5dcf383
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Thu Oct 30 21:12:22 2025 -0300
+
+    test(billing): adiciona testes unitários para serviço de notificações
+    Merge pull request #1162 from fernandalima/test/adiciona-testes-unitarios-para-servico
+
+commit 1558e4a
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Fri Oct 31 03:04:52 2025 -0300
+
+    fix(webhooks): corrige timeout na chamada de API de pagamentos
+    Merge pull request #1163 from diegocastro/fix/corrige-timeout-na-chamada-de
+
+commit e68cb3e
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Fri Oct 31 10:14:38 2025 -0300
+
+    chore(core): atualiza biblioteca de testes
+    Merge pull request #1164 from diegocastro/chore/atualiza-biblioteca-de-testes
+
+commit 050bba8
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Fri Oct 31 17:25:05 2025 -0300
+
+    perf(webhooks): reduz tamanho do bundle JavaScript
+    Merge pull request #1165 from fernandalima/perf/reduz-tamanho-do-bundle-javascript
+
+commit 549fba1
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Sat Nov 1 02:16:41 2025 -0300
+
+    docs(public-api): adiciona exemplos de uso da API pública
+    Merge pull request #1166 from marinasouza/docs/adiciona-exemplos-de-uso-da
+
+commit 24de256
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Sat Nov 1 07:08:23 2025 -0300
+
+    perf(reports): reduz tamanho do bundle JavaScript
+    Merge pull request #1167 from eduardopires/perf/reduz-tamanho-do-bundle-javascript
+
+commit a62c5ba
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Sat Nov 1 14:55:32 2025 -0300
+
+    test(webhooks): corrige testes instáveis (flaky tests) na suíte de CI
+    Merge pull request #1168 from julianaramos/test/corrige-testes-instaveis-(flaky-tests)
+
+commit 12c180e
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Sat Nov 1 21:33:39 2025 -0300
+
+    style(billing): ajusta espaçamento e tipografia da interface
+    Merge pull request #1169 from marinasouza/style/ajusta-espacamento-e-tipografia-da
+
+tag: v5.0.0
+Tagger: Aline Correia <aline.correia@empresa.com>
+Date:   Sun Nov 2 04:23:21 2025 -0300
+
+    Release v5.0.0
+    PRs incluídos: #1164, #1165, #1166, #1167, #1168, #1169
+
+commit d4e8258
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Sun Nov 2 11:28:33 2025 -0300
+
+    refactor(reports): simplifica lógica de validação de formulários
+    Merge pull request #1170 from thiagorocha/refactor/simplifica-logica-de-validacao-de
+
+commit 35ff3e7
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Sun Nov 2 15:36:23 2025 -0300
+
+    fix(public-api): resolve vazamento de memória no worker de filas
+    Merge pull request #1171 from eduardopires/fix/resolve-vazamento-de-memoria-no
+
+commit 721deaf
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Sun Nov 2 23:57:43 2025 -0300
+
+    docs(admin-panel): atualiza documentação da API no README
+    Merge pull request #1172 from brunoalves/docs/atualiza-documentacao-da-api-no
+
+commit 5a1532f
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Mon Nov 3 07:46:39 2025 -0300
+
+    refactor(checkout): unifica tratamento de erros da API
+    Merge pull request #1173 from brunoalves/refactor/unifica-tratamento-de-erros-da
+
+commit a898320
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Mon Nov 3 13:50:42 2025 -0300
+
+    security(search): corrige exposição de dados em endpoint de debug
+    Merge pull request #1174 from carlamendes/security/corrige-exposicao-de-dados-em
+
+commit 11e265a
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Mon Nov 3 18:29:58 2025 -0300
+
+    test(admin-panel): adiciona testes unitários para serviço de notificações
+    Merge pull request #1175 from thiagorocha/test/adiciona-testes-unitarios-para-servico
+
+commit 25896f0
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Tue Nov 4 03:36:05 2025 -0300
+
+    style(admin-panel): ajusta espaçamento e tipografia da interface
+    Merge pull request #1176 from patriciagomes/style/ajusta-espacamento-e-tipografia-da
+
+commit 8480779
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Tue Nov 4 10:53:02 2025 -0300
+
+    chore(checkout): reorganiza arquivos de configuração
+    Merge pull request #1177 from eduardopires/chore/reorganiza-arquivos-de-configuracao
+
+commit 104f184
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Tue Nov 4 17:40:29 2025 -0300
+
+    style(dashboard): ajusta paleta de cores para acessibilidade
+    Merge pull request #1178 from patriciagomes/style/ajusta-paleta-de-cores-para
+
+commit 9ecb34d
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Tue Nov 4 23:16:20 2025 -0300
+
+    security(reports): atualiza dependência com CVE crítico
+    Merge pull request #1179 from brunoalves/security/atualiza-dependencia-com-cve-critico
+
+commit 2f1f167
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Wed Nov 5 04:38:27 2025 -0300
+
+    chore(auth): migra pipeline de CI/CD para GitHub Actions
+    Merge pull request #1180 from marinasouza/chore/migra-pipeline-de-ci/cd-para
+
+commit a65f287
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Wed Nov 5 12:27:07 2025 -0300
+
+    chore(billing): atualiza imagem base do Docker
+    Merge pull request #1181 from patriciagomes/chore/atualiza-imagem-base-do-docker
+
+commit 2159720
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Wed Nov 5 17:55:21 2025 -0300
+
+    fix(core): corrige erro de validação no formulário de cadastro
+    Merge pull request #1182 from julianaramos/fix/corrige-erro-de-validacao-no
+
+commit 5c4fb88
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Thu Nov 6 03:15:29 2025 -0300
+
+    chore(webhooks): atualiza biblioteca de testes
+    Merge pull request #1183 from lucasferreira/chore/atualiza-biblioteca-de-testes
+
+commit b72e192
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Thu Nov 6 10:14:06 2025 -0300
+
+    refactor(search): refatora camada de acesso a dados
+    Merge pull request #1184 from julianaramos/refactor/refatora-camada-de-acesso-a
+
+commit 8b2384a
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Thu Nov 6 16:58:23 2025 -0300
+
+    perf(notifications): otimiza carregamento de imagens (lazy loading)
+    Merge pull request #1185 from patriciagomes/perf/otimiza-carregamento-de-imagens-(lazy
+
+commit 132ce04
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Fri Nov 7 00:13:53 2025 -0300
+
+    fix(checkout): resolve race condition no processamento de pedidos
+    Merge pull request #1186 from lucasferreira/fix/resolve-race-condition-no-processamento
+
+tag: v5.1.0
+Tagger: Vinicius Teixeira <vinicius.teixeira@empresa.com>
+Date:   Fri Nov 7 06:05:32 2025 -0300
+
+    Release v5.1.0
+    PRs incluídos: #1181, #1182, #1183, #1184, #1185, #1186
+
+commit ccabcd4
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Fri Nov 7 09:46:58 2025 -0300
+
+    fix(billing): corrige erro 500 ao gerar relatório mensal
+    Merge pull request #1187 from julianaramos/fix/corrige-erro-500-ao-gerar
+
+commit f2c6e41
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Fri Nov 7 17:13:42 2025 -0300
+
+    docs(billing): adiciona guia de contribuição
+    Merge pull request #1188 from brunoalves/docs/adiciona-guia-de-contribuicao
+
+commit 8784ab5
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Sat Nov 8 02:04:35 2025 -0300
+
+    chore(dashboard): atualiza versão do runtime do Node.js
+    Merge pull request #1189 from brunoalves/chore/atualiza-versao-do-runtime-do
+
+commit 1946e9f
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Sat Nov 8 08:29:06 2025 -0300
+
+    style(core): padroniza ícones do menu lateral
+    Merge pull request #1190 from fernandalima/style/padroniza-icones-do-menu-lateral
+
+commit f5747e7
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Sat Nov 8 15:36:19 2025 -0300
+
+    perf(public-api): otimiza carregamento de imagens (lazy loading)
+    Merge pull request #1191 from brunoalves/perf/otimiza-carregamento-de-imagens-(lazy
+
+commit bef9eff
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Sat Nov 8 21:14:24 2025 -0300
+
+    docs(core): atualiza changelog do projeto
+    Merge pull request #1192 from thiagorocha/docs/atualiza-changelog-do-projeto
+
+commit e2cf663
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Sun Nov 9 03:12:45 2025 -0300
+
+    fix(public-api): resolve lentidão na listagem de produtos
+    Merge pull request #1193 from carlamendes/fix/resolve-lentidao-na-listagem-de
+
+commit 83a75ba
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Sun Nov 9 12:32:33 2025 -0300
+
+    style(admin-panel): ajusta espaçamento e tipografia da interface
+    Merge pull request #1194 from rafaelnunes/style/ajusta-espacamento-e-tipografia-da
+
+commit 63013d2
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Sun Nov 9 16:38:15 2025 -0300
+
+    docs(mobile-api): atualiza changelog do projeto
+    Merge pull request #1195 from marinasouza/docs/atualiza-changelog-do-projeto
+
+commit 497f267
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Sun Nov 9 23:30:32 2025 -0300
+
+    feat(reports): implementa histórico de alterações (audit log)
+    Merge pull request #1196 from brunoalves/feat/implementa-historico-de-alteracoes-(audit
+
+commit 046165f
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Mon Nov 10 08:43:05 2025 -0300
+
+    security(core): corrige exposição de dados em endpoint de debug
+    Merge pull request #1197 from patriciagomes/security/corrige-exposicao-de-dados-em
+
+commit 3e74bde
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Mon Nov 10 13:13:14 2025 -0300
+
+    perf(mobile-api): reduz tempo de build do frontend
+    Merge pull request #1198 from rafaelnunes/perf/reduz-tempo-de-build-do
+
+commit 35adac7
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Mon Nov 10 19:55:35 2025 -0300
+
+    chore(billing): limpa dependências não utilizadas
+    Merge pull request #1199 from carlamendes/chore/limpa-dependencias-nao-utilizadas
+
+commit 0cf250f
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Tue Nov 11 04:47:48 2025 -0300
+
+    chore(admin-panel): atualiza biblioteca de testes
+    Merge pull request #1200 from thiagorocha/chore/atualiza-biblioteca-de-testes
+
+commit c993751
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Tue Nov 11 10:24:48 2025 -0300
+
+    fix(search): resolve falha de autenticação após expiração de token
+    Merge pull request #1201 from camiladuarte/fix/resolve-falha-de-autenticacao-apos
+
+commit bf868d0
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Tue Nov 11 15:34:22 2025 -0300
+
+    chore(core): remove código legado não utilizado
+    Merge pull request #1202 from julianaramos/chore/remove-codigo-legado-nao-utilizado
+
+commit 4808042
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Tue Nov 11 22:40:52 2025 -0300
+
+    style(reports): ajusta espaçamento e tipografia da interface
+    Merge pull request #1203 from julianaramos/style/ajusta-espacamento-e-tipografia-da
+
+commit 424dc0b
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Wed Nov 12 06:50:59 2025 -0300
+
+    security(core): implementa rate limiting na API pública
+    Merge pull request #1204 from patriciagomes/security/implementa-rate-limiting-na-api
+
+commit d0b7b83
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Wed Nov 12 15:12:35 2025 -0300
+
+    perf(billing): reduz tamanho do bundle JavaScript
+    Merge pull request #1205 from eduardopires/perf/reduz-tamanho-do-bundle-javascript
+
+tag: v5.1.1
+Tagger: Vinicius Teixeira <vinicius.teixeira@empresa.com>
+Date:   Wed Nov 12 21:05:46 2025 -0300
+
+    Release v5.1.1
+    PRs incluídos: #1200, #1201, #1202, #1203, #1204, #1205
+
+commit 0dce528
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Thu Nov 13 01:53:27 2025 -0300
+
+    refactor(search): simplifica lógica de validação de formulários
+    Merge pull request #1206 from rafaelnunes/refactor/simplifica-logica-de-validacao-de
+
+commit e2a8408
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Thu Nov 13 09:48:29 2025 -0300
+
+    chore(core): atualiza imagem base do Docker
+    Merge pull request #1207 from lucasferreira/chore/atualiza-imagem-base-do-docker
+
+commit c0e2fc0
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Thu Nov 13 14:57:42 2025 -0300
+
+    style(billing): ajusta paleta de cores para acessibilidade
+    Merge pull request #1208 from brunoalves/style/ajusta-paleta-de-cores-para
+
+commit 4c9b4ed
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Thu Nov 13 23:24:42 2025 -0300
+
+    security(public-api): corrige vulnerabilidade de XSS no formulário de contato
+    Merge pull request #1209 from marinasouza/security/corrige-vulnerabilidade-de-xss-no
+
+commit 80b998a
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Fri Nov 14 05:49:10 2025 -0300
+
+    refactor(reports): desacopla módulo de pagamentos do core
+    Merge pull request #1210 from diegocastro/refactor/desacopla-modulo-de-pagamentos-do
+
+commit 06ed51c
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Fri Nov 14 10:50:33 2025 -0300
+
+    test(dashboard): aumenta cobertura de testes do módulo de usuários
+    Merge pull request #1211 from rafaelnunes/test/aumenta-cobertura-de-testes-do
+
+commit 8c59840
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Fri Nov 14 17:26:40 2025 -0300
+
+    test(mobile-api): adiciona testes unitários para serviço de notificações
+    Merge pull request #1212 from camiladuarte/test/adiciona-testes-unitarios-para-servico
+
+commit 4232f6d
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Sat Nov 15 02:48:52 2025 -0300
+
+    fix(auth): corrige botão de cancelamento não responsivo
+    Merge pull request #1213 from brunoalves/fix/corrige-botao-de-cancelamento-nao
+
+commit efb961b
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Sat Nov 15 10:18:30 2025 -0300
+
+    feat(dashboard): implementa cache com Redis para consultas frequentes
+    Merge pull request #1214 from rafaelnunes/feat/implementa-cache-com-redis-para
+
+commit 3093b25
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Sat Nov 15 13:49:35 2025 -0300
+
+    test(reports): corrige testes instáveis (flaky tests) na suíte de CI
+    Merge pull request #1215 from eduardopires/test/corrige-testes-instaveis-(flaky-tests)
+
+commit 6e1f116
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Sat Nov 15 21:07:06 2025 -0300
+
+    perf(webhooks): reduz tamanho do bundle JavaScript
+    Merge pull request #1216 from diegocastro/perf/reduz-tamanho-do-bundle-javascript
+
+commit 14cb375
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Sun Nov 16 03:23:00 2025 -0300
+
+    fix(reports): corrige encoding incorreto em exportação CSV
+    Merge pull request #1217 from julianaramos/fix/corrige-encoding-incorreto-em-exportacao
+
+commit bfaaecf
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Sun Nov 16 13:18:19 2025 -0300
+
+    test(core): corrige testes instáveis (flaky tests) na suíte de CI
+    Merge pull request #1218 from carlamendes/test/corrige-testes-instaveis-(flaky-tests)
+
+commit 5f91cc6
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Sun Nov 16 19:08:06 2025 -0300
+
+    fix(webhooks): corrige quebra de layout em telas menores
+    Merge pull request #1219 from camiladuarte/fix/corrige-quebra-de-layout-em
+
+commit 0d853aa
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Mon Nov 17 01:42:42 2025 -0300
+
+    security(dashboard): corrige exposição de dados em endpoint de debug
+    Merge pull request #1220 from camiladuarte/security/corrige-exposicao-de-dados-em
+
+commit 340611b
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Mon Nov 17 06:09:01 2025 -0300
+
+    chore(reports): remove código legado não utilizado
+    Merge pull request #1221 from fernandalima/chore/remove-codigo-legado-nao-utilizado
+
+commit d79dd6d
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Mon Nov 17 15:56:18 2025 -0300
+
+    perf(mobile-api): otimiza carregamento de imagens (lazy loading)
+    Merge pull request #1222 from julianaramos/perf/otimiza-carregamento-de-imagens-(lazy
+
+commit 49bdf18
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Mon Nov 17 21:43:07 2025 -0300
+
+    perf(notifications): otimiza carregamento de imagens (lazy loading)
+    Merge pull request #1223 from diegocastro/perf/otimiza-carregamento-de-imagens-(lazy
+
+tag: v6.0.0
+Tagger: Vinicius Teixeira <vinicius.teixeira@empresa.com>
+Date:   Tue Nov 18 05:11:35 2025 -0300
+
+    Release v6.0.0
+    PRs incluídos: #1218, #1219, #1220, #1221, #1222, #1223
+
+commit cb35de1
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Tue Nov 18 12:15:11 2025 -0300
+
+    feat(dashboard): adiciona suporte a temas customizados
+    Merge pull request #1224 from diegocastro/feat/adiciona-suporte-a-temas-customizados
+
+commit 4a3c09c
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Tue Nov 18 16:56:28 2025 -0300
+
+    perf(core): reduz tempo de build do frontend
+    Merge pull request #1225 from julianaramos/perf/reduz-tempo-de-build-do
+
+commit 3fdc07c
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Wed Nov 19 01:08:33 2025 -0300
+
+    docs(checkout): documenta processo de deploy
+    Merge pull request #1226 from rafaelnunes/docs/documenta-processo-de-deploy
+
+commit 4e12633
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Wed Nov 19 06:33:07 2025 -0300
+
+    chore(public-api): atualiza biblioteca de testes
+    Merge pull request #1227 from diegocastro/chore/atualiza-biblioteca-de-testes
+
+commit 4ca12e9
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Wed Nov 19 14:56:37 2025 -0300
+
+    chore(dashboard): atualiza biblioteca de testes
+    Merge pull request #1228 from brunoalves/chore/atualiza-biblioteca-de-testes
+
+commit 92ecebb
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Wed Nov 19 19:45:20 2025 -0300
+
+    feat(public-api): adiciona suporte a webhooks
+    Merge pull request #1229 from brunoalves/feat/adiciona-suporte-a-webhooks
+
+commit 8147b27
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Thu Nov 20 03:50:59 2025 -0300
+
+    docs(checkout): documenta processo de deploy
+    Merge pull request #1230 from julianaramos/docs/documenta-processo-de-deploy
+
+commit dab7343
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Thu Nov 20 08:51:02 2025 -0300
+
+    docs(core): adiciona guia de contribuição
+    Merge pull request #1231 from rafaelnunes/docs/adiciona-guia-de-contribuicao
+
+commit 334e7a9
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Thu Nov 20 16:21:35 2025 -0300
+
+    docs(public-api): atualiza documentação da API no README
+    Merge pull request #1232 from diegocastro/docs/atualiza-documentacao-da-api-no
+
+commit 587cf8d
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Thu Nov 20 23:46:56 2025 -0300
+
+    security(checkout): implementa rate limiting na API pública
+    Merge pull request #1233 from diegocastro/security/implementa-rate-limiting-na-api
+
+commit b07d2a4
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Fri Nov 21 04:46:07 2025 -0300
+
+    style(notifications): ajusta espaçamento e tipografia da interface
+    Merge pull request #1234 from julianaramos/style/ajusta-espacamento-e-tipografia-da
+
+tag: v6.1.0
+Tagger: Aline Correia <aline.correia@empresa.com>
+Date:   Fri Nov 21 14:33:39 2025 -0300
+
+    Release v6.1.0
+    PRs incluídos: #1229, #1230, #1231, #1232, #1233, #1234
+
+commit 81230d6
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Fri Nov 21 20:26:21 2025 -0300
+
+    chore(webhooks): remove código legado não utilizado
+    Merge pull request #1235 from patriciagomes/chore/remove-codigo-legado-nao-utilizado
+
+commit 81f6cd4
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Sat Nov 22 01:01:39 2025 -0300
+
+    security(notifications): implementa rate limiting na API pública
+    Merge pull request #1236 from camiladuarte/security/implementa-rate-limiting-na-api
+
+commit d3761a9
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Sat Nov 22 08:47:07 2025 -0300
+
+    chore(notifications): atualiza versão do runtime do Node.js
+    Merge pull request #1237 from camiladuarte/chore/atualiza-versao-do-runtime-do
+
+commit fafb2cc
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Sat Nov 22 15:29:13 2025 -0300
+
+    perf(public-api): reduz tempo de build do frontend
+    Merge pull request #1238 from diegocastro/perf/reduz-tempo-de-build-do
+
+commit 5f798e1
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Sat Nov 22 22:15:54 2025 -0300
+
+    style(dashboard): ajusta espaçamento e tipografia da interface
+    Merge pull request #1239 from brunoalves/style/ajusta-espacamento-e-tipografia-da
+
+commit 5ca805c
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Sun Nov 23 06:52:24 2025 -0300
+
+    fix(search): resolve falha de autenticação após expiração de token
+    Merge pull request #1240 from thiagorocha/fix/resolve-falha-de-autenticacao-apos
+
+commit 61cbacb
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Sun Nov 23 11:16:32 2025 -0300
+
+    refactor(notifications): reorganiza estrutura de pastas do backend
+    Merge pull request #1241 from patriciagomes/refactor/reorganiza-estrutura-de-pastas-do
+
+commit b854b70
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Sun Nov 23 19:16:02 2025 -0300
+
+    style(admin-panel): ajusta paleta de cores para acessibilidade
+    Merge pull request #1242 from camiladuarte/style/ajusta-paleta-de-cores-para
+
+commit 8549dd5
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Mon Nov 24 02:17:44 2025 -0300
+
+    refactor(webhooks): unifica tratamento de erros da API
+    Merge pull request #1243 from eduardopires/refactor/unifica-tratamento-de-erros-da
+
+commit f7b06f5
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Mon Nov 24 08:27:04 2025 -0300
+
+    test(mobile-api): adiciona testes de integração para módulo de checkout
+    Merge pull request #1244 from thiagorocha/test/adiciona-testes-de-integracao-para
+
+commit 93714bd
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Mon Nov 24 17:20:04 2025 -0300
+
+    refactor(checkout): simplifica lógica de validação de formulários
+    Merge pull request #1245 from carlamendes/refactor/simplifica-logica-de-validacao-de
+
+commit 3f9873b
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Mon Nov 24 22:29:57 2025 -0300
+
+    style(public-api): ajusta espaçamento e tipografia da interface
+    Merge pull request #1246 from eduardopires/style/ajusta-espacamento-e-tipografia-da
+
+commit a0ec1e9
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Tue Nov 25 03:56:45 2025 -0300
+
+    feat(notifications): adiciona suporte a webhooks
+    Merge pull request #1247 from rafaelnunes/feat/adiciona-suporte-a-webhooks
+
+commit 0d1c0a4
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Tue Nov 25 11:51:25 2025 -0300
+
+    fix(notifications): corrige ordenação incorreta na busca
+    Merge pull request #1248 from brunoalves/fix/corrige-ordenacao-incorreta-na-busca
+
+commit 59f9d14
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Tue Nov 25 20:12:38 2025 -0300
+
+    feat(checkout): adiciona sistema de notificações push
+    Merge pull request #1249 from patriciagomes/feat/adiciona-sistema-de-notificacoes-push
+
+commit 16e4b54
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Tue Nov 25 23:45:23 2025 -0300
+
+    docs(core): documenta processo de deploy
+    Merge pull request #1250 from carlamendes/docs/documenta-processo-de-deploy
+
+commit 94c0388
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Wed Nov 26 07:31:53 2025 -0300
+
+    feat(billing): implementa autenticação de dois fatores
+    Merge pull request #1251 from eduardopires/feat/implementa-autenticacao-de-dois-fatores
+
+commit 2fd638e
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Wed Nov 26 13:24:59 2025 -0300
+
+    refactor(checkout): unifica tratamento de erros da API
+    Merge pull request #1252 from lucasferreira/refactor/unifica-tratamento-de-erros-da
+
+commit 785eef8
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Wed Nov 26 22:27:00 2025 -0300
+
+    security(webhooks): corrige vulnerabilidade de XSS no formulário de contato
+    Merge pull request #1253 from rafaelnunes/security/corrige-vulnerabilidade-de-xss-no
+
+tag: v6.1.1
+Tagger: Vinicius Teixeira <vinicius.teixeira@empresa.com>
+Date:   Thu Nov 27 04:03:38 2025 -0300
+
+    Release v6.1.1
+    PRs incluídos: #1248, #1249, #1250, #1251, #1252, #1253
+
+commit da3cc4b
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Thu Nov 27 08:58:35 2025 -0300
+
+    chore(dashboard): padroniza formatação com Prettier/ESLint
+    Merge pull request #1254 from camiladuarte/chore/padroniza-formatacao-com-prettier/eslint
+
+commit 34fec13
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Thu Nov 27 18:36:48 2025 -0300
+
+    security(mobile-api): adiciona validação contra SQL injection
+    Merge pull request #1255 from eduardopires/security/adiciona-validacao-contra-sql-injection
+
+commit 7a02624
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Fri Nov 28 00:36:18 2025 -0300
+
+    perf(admin-panel): otimiza consultas ao banco de dados
+    Merge pull request #1256 from fernandalima/perf/otimiza-consultas-ao-banco-de
+
+commit 912f359
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Fri Nov 28 06:11:57 2025 -0300
+
+    refactor(search): reorganiza estrutura de pastas do backend
+    Merge pull request #1257 from carlamendes/refactor/reorganiza-estrutura-de-pastas-do
+
+commit da6209f
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Fri Nov 28 14:17:32 2025 -0300
+
+    chore(mobile-api): atualiza imagem base do Docker
+    Merge pull request #1258 from marinasouza/chore/atualiza-imagem-base-do-docker
+
+commit 9a54240
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Fri Nov 28 20:03:19 2025 -0300
+
+    style(dashboard): padroniza ícones do menu lateral
+    Merge pull request #1259 from marinasouza/style/padroniza-icones-do-menu-lateral
+
+commit 649985c
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Sat Nov 29 02:02:30 2025 -0300
+
+    fix(core): corrige ordenação incorreta na busca
+    Merge pull request #1260 from carlamendes/fix/corrige-ordenacao-incorreta-na-busca
+
+commit 9fae2c8
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Sat Nov 29 11:14:11 2025 -0300
+
+    feat(search): implementa autenticação de dois fatores
+    Merge pull request #1261 from patriciagomes/feat/implementa-autenticacao-de-dois-fatores
+
+commit c6c5423
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Sat Nov 29 15:04:50 2025 -0300
+
+    feat(billing): adiciona modo offline com sincronização
+    Merge pull request #1262 from patriciagomes/feat/adiciona-modo-offline-com-sincronizacao
+
+commit f020991
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Sat Nov 29 23:12:54 2025 -0300
+
+    refactor(notifications): unifica tratamento de erros da API
+    Merge pull request #1263 from brunoalves/refactor/unifica-tratamento-de-erros-da
+
+commit 13d6921
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Sun Nov 30 07:15:03 2025 -0300
+
+    chore(dashboard): atualiza dependências do projeto
+    Merge pull request #1264 from thiagorocha/chore/atualiza-dependencias-do-projeto
+
+commit d09c059
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Sun Nov 30 11:46:22 2025 -0300
+
+    fix(notifications): corrige inconsistência de fuso horário nos relatórios
+    Merge pull request #1265 from julianaramos/fix/corrige-inconsistencia-de-fuso-horario
+
+commit ce53012
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Sun Nov 30 18:34:28 2025 -0300
+
+    fix(reports): corrige cálculo de frete para regiões norte e nordeste
+    Merge pull request #1266 from julianaramos/fix/corrige-calculo-de-frete-para
+
+commit b016252
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Mon Dec 1 03:07:23 2025 -0300
+
+    test(admin-panel): adiciona testes unitários para serviço de notificações
+    Merge pull request #1267 from julianaramos/test/adiciona-testes-unitarios-para-servico
+
+tag: v6.1.2
+Tagger: Aline Correia <aline.correia@empresa.com>
+Date:   Mon Dec 1 09:43:40 2025 -0300
+
+    Release v6.1.2
+    PRs incluídos: #1262, #1263, #1264, #1265, #1266, #1267
+
+commit 4476499
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Mon Dec 1 16:18:33 2025 -0300
+
+    style(webhooks): ajusta espaçamento e tipografia da interface
+    Merge pull request #1268 from lucasferreira/style/ajusta-espacamento-e-tipografia-da
+
+commit 5c0297e
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Mon Dec 1 23:56:16 2025 -0300
+
+    security(notifications): implementa rate limiting na API pública
+    Merge pull request #1269 from eduardopires/security/implementa-rate-limiting-na-api
+
+commit 44f610d
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Tue Dec 2 04:37:09 2025 -0300
+
+    refactor(reports): desacopla módulo de pagamentos do core
+    Merge pull request #1270 from lucasferreira/refactor/desacopla-modulo-de-pagamentos-do
+
+commit 62eaa92
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Tue Dec 2 10:45:59 2025 -0300
+
+    test(search): aumenta cobertura de testes do módulo de usuários
+    Merge pull request #1271 from fernandalima/test/aumenta-cobertura-de-testes-do
+
+commit ebf8b73
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Tue Dec 2 18:21:07 2025 -0300
+
+    test(dashboard): corrige testes instáveis (flaky tests) na suíte de CI
+    Merge pull request #1272 from patriciagomes/test/corrige-testes-instaveis-(flaky-tests)
+
+commit 38f8a4f
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Wed Dec 3 02:14:58 2025 -0300
+
+    security(dashboard): implementa rate limiting na API pública
+    Merge pull request #1273 from rafaelnunes/security/implementa-rate-limiting-na-api
+
+commit 2970ceb
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Wed Dec 3 09:37:52 2025 -0300
+
+    chore(admin-panel): configura análise estática de código
+    Merge pull request #1274 from rafaelnunes/chore/configura-analise-estatica-de-codigo
+
+commit 834611f
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Wed Dec 3 14:20:57 2025 -0300
+
+    perf(billing): otimiza consultas ao banco de dados
+    Merge pull request #1275 from marinasouza/perf/otimiza-consultas-ao-banco-de
+
+commit d8c1615
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Wed Dec 3 23:51:52 2025 -0300
+
+    feat(checkout): adiciona integração com gateway de pagamento
+    Merge pull request #1276 from lucasferreira/feat/adiciona-integracao-com-gateway-de
+
+commit 8408acb
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Thu Dec 4 04:52:53 2025 -0300
+
+    fix(webhooks): corrige erro de validação no formulário de cadastro
+    Merge pull request #1277 from fernandalima/fix/corrige-erro-de-validacao-no
+
+tag: v6.1.3
+Tagger: Renata Bastos <renata.bastos@empresa.com>
+Date:   Thu Dec 4 10:51:10 2025 -0300
+
+    Release v6.1.3
+    PRs incluídos: #1272, #1273, #1274, #1275, #1276, #1277
+
+commit 5ed9704
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Thu Dec 4 16:59:28 2025 -0300
+
+    refactor(checkout): refatora camada de acesso a dados
+    Merge pull request #1278 from thiagorocha/refactor/refatora-camada-de-acesso-a
+
+commit 238c7c0
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Fri Dec 5 02:09:07 2025 -0300
+
+    fix(mobile-api): resolve falha de conexão com banco em produção
+    Merge pull request #1279 from lucasferreira/fix/resolve-falha-de-conexao-com
+
+commit 28802ed
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Fri Dec 5 08:40:45 2025 -0300
+
+    perf(admin-panel): otimiza consultas ao banco de dados
+    Merge pull request #1280 from diegocastro/perf/otimiza-consultas-ao-banco-de
+
+commit 9fbbc3a
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Fri Dec 5 14:25:58 2025 -0300
+
+    perf(search): reduz tamanho do bundle JavaScript
+    Merge pull request #1281 from fernandalima/perf/reduz-tamanho-do-bundle-javascript
+
+commit 338f5e8
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Fri Dec 5 20:43:08 2025 -0300
+
+    style(search): ajusta paleta de cores para acessibilidade
+    Merge pull request #1282 from julianaramos/style/ajusta-paleta-de-cores-para
+
+commit 0bcbe33
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Sat Dec 6 04:48:37 2025 -0300
+
+    chore(webhooks): atualiza biblioteca de testes
+    Merge pull request #1283 from lucasferreira/chore/atualiza-biblioteca-de-testes
+
+commit 507fdb2
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Sat Dec 6 09:58:00 2025 -0300
+
+    security(auth): implementa rate limiting na API pública
+    Merge pull request #1284 from diegocastro/security/implementa-rate-limiting-na-api
+
+commit d500cfb
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Sat Dec 6 18:44:37 2025 -0300
+
+    style(public-api): ajusta paleta de cores para acessibilidade
+    Merge pull request #1285 from carlamendes/style/ajusta-paleta-de-cores-para
+
+commit 93e26c6
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Sun Dec 7 01:55:04 2025 -0300
+
+    chore(search): configura análise estática de código
+    Merge pull request #1286 from diegocastro/chore/configura-analise-estatica-de-codigo
+
+commit a702c5c
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Sun Dec 7 07:54:03 2025 -0300
+
+    fix(admin-panel): resolve lentidão na listagem de produtos
+    Merge pull request #1287 from eduardopires/fix/resolve-lentidao-na-listagem-de
+
+commit 5f50c7c
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Sun Dec 7 14:24:40 2025 -0300
+
+    test(core): aumenta cobertura de testes do módulo de usuários
+    Merge pull request #1288 from eduardopires/test/aumenta-cobertura-de-testes-do
+
+commit 3d3bf2a
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Sun Dec 7 21:39:16 2025 -0300
+
+    chore(webhooks): reorganiza arquivos de configuração
+    Merge pull request #1289 from julianaramos/chore/reorganiza-arquivos-de-configuracao
+
+commit c27784a
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Mon Dec 8 01:31:37 2025 -0300
+
+    test(auth): adiciona testes end-to-end para fluxo de compra
+    Merge pull request #1290 from carlamendes/test/adiciona-testes-end-to-end-para-fluxo
+
+commit 39243b2
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Mon Dec 8 10:59:22 2025 -0300
+
+    fix(notifications): corrige cálculo de frete para regiões norte e nordeste
+    Merge pull request #1291 from fernandalima/fix/corrige-calculo-de-frete-para
+
+commit 2b7a053
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Mon Dec 8 16:19:07 2025 -0300
+
+    style(admin-panel): ajusta paleta de cores para acessibilidade
+    Merge pull request #1292 from thiagorocha/style/ajusta-paleta-de-cores-para
+
+commit b664c3e
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Mon Dec 8 22:48:34 2025 -0300
+
+    test(auth): adiciona testes unitários para serviço de notificações
+    Merge pull request #1293 from carlamendes/test/adiciona-testes-unitarios-para-servico
+
+commit b5e2aa6
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Tue Dec 9 06:08:04 2025 -0300
+
+    feat(admin-panel): adiciona sistema de notificações push
+    Merge pull request #1294 from brunoalves/feat/adiciona-sistema-de-notificacoes-push
+
+commit e3b90dc
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Tue Dec 9 14:05:32 2025 -0300
+
+    security(search): adiciona validação contra SQL injection
+    Merge pull request #1295 from diegocastro/security/adiciona-validacao-contra-sql-injection
+
+commit 176bc1f
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Tue Dec 9 19:51:37 2025 -0300
+
+    security(notifications): adiciona validação contra SQL injection
+    Merge pull request #1296 from fernandalima/security/adiciona-validacao-contra-sql-injection
+
+tag: v6.1.4
+Tagger: Renata Bastos <renata.bastos@empresa.com>
+Date:   Wed Dec 10 00:48:11 2025 -0300
+
+    Release v6.1.4
+    PRs incluídos: #1291, #1292, #1293, #1294, #1295, #1296
+
+commit faecf57
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Wed Dec 10 11:14:02 2025 -0300
+
+    security(auth): corrige exposição de dados em endpoint de debug
+    Merge pull request #1297 from eduardopires/security/corrige-exposicao-de-dados-em
+
+commit 9554ea0
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Wed Dec 10 17:24:36 2025 -0300
+
+    docs(notifications): atualiza changelog do projeto
+    Merge pull request #1298 from diegocastro/docs/atualiza-changelog-do-projeto
+
+commit 1b8b410
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Wed Dec 10 22:39:52 2025 -0300
+
+    perf(webhooks): reduz tamanho do bundle JavaScript
+    Merge pull request #1299 from diegocastro/perf/reduz-tamanho-do-bundle-javascript
+
+commit bdd6986
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Thu Dec 11 07:16:38 2025 -0300
+
+    test(core): corrige testes instáveis (flaky tests) na suíte de CI
+    Merge pull request #1300 from marinasouza/test/corrige-testes-instaveis-(flaky-tests)
+
+commit b646a4f
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Thu Dec 11 11:50:09 2025 -0300
+
+    test(reports): adiciona testes de integração para módulo de checkout
+    Merge pull request #1301 from eduardopires/test/adiciona-testes-de-integracao-para
+
+commit 14a3bb8
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Thu Dec 11 17:13:28 2025 -0300
+
+    fix(auth): corrige encoding incorreto em exportação CSV
+    Merge pull request #1302 from marinasouza/fix/corrige-encoding-incorreto-em-exportacao
+
+commit 4640d6e
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Fri Dec 12 02:32:51 2025 -0300
+
+    refactor(search): reduz complexidade do componente de checkout
+    Merge pull request #1303 from marinasouza/refactor/reduz-complexidade-do-componente-de
+
+commit 703b407
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Fri Dec 12 07:32:55 2025 -0300
+
+    perf(billing): otimiza carregamento de imagens (lazy loading)
+    Merge pull request #1304 from camiladuarte/perf/otimiza-carregamento-de-imagens-(lazy
+
+commit c7a8733
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Fri Dec 12 15:06:45 2025 -0300
+
+    feat(search): implementa sistema de permissões por papel
+    Merge pull request #1305 from julianaramos/feat/implementa-sistema-de-permissoes-por
+
+commit 111e562
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Fri Dec 12 23:22:26 2025 -0300
+
+    docs(admin-panel): adiciona exemplos de uso da API pública
+    Merge pull request #1306 from thiagorocha/docs/adiciona-exemplos-de-uso-da
+
+commit 8925c3c
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Sat Dec 13 04:18:29 2025 -0300
+
+    feat(auth): adiciona modo offline com sincronização
+    Merge pull request #1307 from fernandalima/feat/adiciona-modo-offline-com-sincronizacao
+
+commit a6cb9df
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Sat Dec 13 10:44:40 2025 -0300
+
+    chore(core): configura análise estática de código
+    Merge pull request #1308 from marinasouza/chore/configura-analise-estatica-de-codigo
+
+commit 310ae43
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Sat Dec 13 17:22:07 2025 -0300
+
+    refactor(auth): migra chamadas de API para hooks customizados
+    Merge pull request #1309 from patriciagomes/refactor/migra-chamadas-de-api-para
+
+tag: v6.2.0
+Tagger: Renata Bastos <renata.bastos@empresa.com>
+Date:   Sun Dec 14 02:46:28 2025 -0300
+
+    Release v6.2.0
+    PRs incluídos: #1304, #1305, #1306, #1307, #1308, #1309
+
+commit 5cd0c4a
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Sun Dec 14 06:40:32 2025 -0300
+
+    security(webhooks): adiciona validação contra SQL injection
+    Merge pull request #1310 from camiladuarte/security/adiciona-validacao-contra-sql-injection
+
+commit 99661c2
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Sun Dec 14 13:20:50 2025 -0300
+
+    docs(search): adiciona exemplos de uso da API pública
+    Merge pull request #1311 from camiladuarte/docs/adiciona-exemplos-de-uso-da
+
+commit 473214d
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Sun Dec 14 23:17:00 2025 -0300
+
+    perf(mobile-api): reduz tamanho do bundle JavaScript
+    Merge pull request #1312 from brunoalves/perf/reduz-tamanho-do-bundle-javascript
+
+commit 1f681da
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Mon Dec 15 04:46:59 2025 -0300
+
+    test(billing): corrige testes instáveis (flaky tests) na suíte de CI
+    Merge pull request #1313 from rafaelnunes/test/corrige-testes-instaveis-(flaky-tests)
+
+commit 122e1ee
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Mon Dec 15 10:35:21 2025 -0300
+
+    chore(search): limpa dependências não utilizadas
+    Merge pull request #1314 from eduardopires/chore/limpa-dependencias-nao-utilizadas
+
+commit 80136c9
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Mon Dec 15 18:08:36 2025 -0300
+
+    fix(search): corrige encoding incorreto em exportação CSV
+    Merge pull request #1315 from fernandalima/fix/corrige-encoding-incorreto-em-exportacao
+
+commit dcd2a71
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Mon Dec 15 23:28:58 2025 -0300
+
+    chore(webhooks): configura análise estática de código
+    Merge pull request #1316 from rafaelnunes/chore/configura-analise-estatica-de-codigo
+
+commit d9daa22
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Tue Dec 16 07:04:40 2025 -0300
+
+    feat(public-api): implementa dashboard de métricas em tempo real
+    Merge pull request #1317 from carlamendes/feat/implementa-dashboard-de-metricas-em
+
+commit 788dbac
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Tue Dec 16 15:37:51 2025 -0300
+
+    style(billing): ajusta paleta de cores para acessibilidade
+    Merge pull request #1318 from thiagorocha/style/ajusta-paleta-de-cores-para
+
+commit 9b09c21
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Tue Dec 16 21:00:38 2025 -0300
+
+    feat(webhooks): adiciona integração com gateway de pagamento
+    Merge pull request #1319 from camiladuarte/feat/adiciona-integracao-com-gateway-de
+
+commit 01ad340
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Wed Dec 17 01:49:22 2025 -0300
+
+    security(notifications): implementa rate limiting na API pública
+    Merge pull request #1320 from fernandalima/security/implementa-rate-limiting-na-api
+
+commit 67247b6
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Wed Dec 17 08:31:43 2025 -0300
+
+    refactor(billing): refatora camada de acesso a dados
+    Merge pull request #1321 from rafaelnunes/refactor/refatora-camada-de-acesso-a
+
+commit 9ef074a
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Wed Dec 17 18:09:42 2025 -0300
+
+    security(public-api): atualiza dependência com CVE crítico
+    Merge pull request #1322 from eduardopires/security/atualiza-dependencia-com-cve-critico
+
+commit 828305f
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Thu Dec 18 00:13:03 2025 -0300
+
+    docs(notifications): documenta processo de deploy
+    Merge pull request #1323 from rafaelnunes/docs/documenta-processo-de-deploy
+
+commit 5da7347
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Thu Dec 18 05:42:01 2025 -0300
+
+    feat(core): implementa upload de arquivos em lote
+    Merge pull request #1324 from brunoalves/feat/implementa-upload-de-arquivos-em
+
+tag: v6.3.0
+Tagger: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Thu Dec 18 13:38:08 2025 -0300
+
+    Release v6.3.0
+    PRs incluídos: #1319, #1320, #1321, #1322, #1323, #1324
+
+commit 5eb58c4
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Thu Dec 18 18:18:18 2025 -0300
+
+    test(public-api): corrige testes instáveis (flaky tests) na suíte de CI
+    Merge pull request #1325 from camiladuarte/test/corrige-testes-instaveis-(flaky-tests)
+
+commit 6daf940
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Fri Dec 19 03:56:23 2025 -0300
+
+    perf(notifications): reduz tempo de build do frontend
+    Merge pull request #1326 from marinasouza/perf/reduz-tempo-de-build-do
+
+commit c44d43c
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Fri Dec 19 08:12:04 2025 -0300
+
+    fix(dashboard): corrige botão de cancelamento não responsivo
+    Merge pull request #1327 from lucasferreira/fix/corrige-botao-de-cancelamento-nao
+
+commit 5afa37b
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Fri Dec 19 17:21:23 2025 -0300
+
+    feat(billing): implementa cache com Redis para consultas frequentes
+    Merge pull request #1328 from marinasouza/feat/implementa-cache-com-redis-para
+
+commit e15f8f2
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Fri Dec 19 23:46:13 2025 -0300
+
+    perf(admin-panel): reduz tempo de build do frontend
+    Merge pull request #1329 from marinasouza/perf/reduz-tempo-de-build-do
+
+commit 7e42350
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Sat Dec 20 06:28:14 2025 -0300
+
+    feat(webhooks): implementa histórico de alterações (audit log)
+    Merge pull request #1330 from diegocastro/feat/implementa-historico-de-alteracoes-(audit
+
+commit 5aa85ba
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Sat Dec 20 14:09:41 2025 -0300
+
+    chore(billing): configura análise estática de código
+    Merge pull request #1331 from carlamendes/chore/configura-analise-estatica-de-codigo
+
+commit 8694603
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Sat Dec 20 17:51:03 2025 -0300
+
+    fix(search): resolve falha de autenticação após expiração de token
+    Merge pull request #1332 from lucasferreira/fix/resolve-falha-de-autenticacao-apos
+
+commit 1e44ba3
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Sun Dec 21 01:31:37 2025 -0300
+
+    refactor(webhooks): extrai serviço de notificações para módulo próprio
+    Merge pull request #1333 from rafaelnunes/refactor/extrai-servico-de-notificacoes-para
+
+commit 2e4d586
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Sun Dec 21 07:44:40 2025 -0300
+
+    chore(dashboard): atualiza dependências do projeto
+    Merge pull request #1334 from lucasferreira/chore/atualiza-dependencias-do-projeto
+
+commit 0010a35
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Sun Dec 21 14:48:25 2025 -0300
+
+    chore(auth): atualiza versão do runtime do Node.js
+    Merge pull request #1335 from lucasferreira/chore/atualiza-versao-do-runtime-do
+
+commit 2364187
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Sun Dec 21 22:15:26 2025 -0300
+
+    chore(public-api): atualiza versão do runtime do Node.js
+    Merge pull request #1336 from marinasouza/chore/atualiza-versao-do-runtime-do
+
+commit ce620bc
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Mon Dec 22 05:55:14 2025 -0300
+
+    docs(notifications): adiciona guia de contribuição
+    Merge pull request #1337 from camiladuarte/docs/adiciona-guia-de-contribuicao
+
+commit a03b754
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Mon Dec 22 11:46:38 2025 -0300
+
+    refactor(mobile-api): unifica tratamento de erros da API
+    Merge pull request #1338 from marinasouza/refactor/unifica-tratamento-de-erros-da
+
+commit 7677406
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Mon Dec 22 20:06:55 2025 -0300
+
+    chore(webhooks): configura análise estática de código
+    Merge pull request #1339 from rafaelnunes/chore/configura-analise-estatica-de-codigo
+
+commit b225609
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Tue Dec 23 00:22:53 2025 -0300
+
+    chore(search): padroniza formatação com Prettier/ESLint
+    Merge pull request #1340 from brunoalves/chore/padroniza-formatacao-com-prettier/eslint
+
+commit bf88644
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Tue Dec 23 08:43:53 2025 -0300
+
+    docs(webhooks): adiciona exemplos de uso da API pública
+    Merge pull request #1341 from brunoalves/docs/adiciona-exemplos-de-uso-da
+
+tag: v6.4.0
+Tagger: Vinicius Teixeira <vinicius.teixeira@empresa.com>
+Date:   Tue Dec 23 14:47:25 2025 -0300
+
+    Release v6.4.0
+    PRs incluídos: #1336, #1337, #1338, #1339, #1340, #1341
+
+commit 48ad3c6
+Author: Diego Castro <diego.castro@empresa.com>
+Date:   Tue Dec 23 21:01:36 2025 -0300
+
+    security(public-api): corrige exposição de dados em endpoint de debug
+    Merge pull request #1342 from diegocastro/security/corrige-exposicao-de-dados-em
+
+commit 12e2261
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Wed Dec 24 03:29:07 2025 -0300
+
+    perf(checkout): otimiza indexação de busca full-text
+    Merge pull request #1343 from thiagorocha/perf/otimiza-indexacao-de-busca-full-text
+
+commit b87cc03
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Wed Dec 24 10:20:07 2025 -0300
+
+    style(admin-panel): padroniza ícones do menu lateral
+    Merge pull request #1344 from patriciagomes/style/padroniza-icones-do-menu-lateral
+
+commit eee22cc
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Wed Dec 24 16:08:34 2025 -0300
+
+    style(checkout): padroniza ícones do menu lateral
+    Merge pull request #1345 from camiladuarte/style/padroniza-icones-do-menu-lateral
+
+commit 4516578
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Thu Dec 25 00:20:20 2025 -0300
+
+    security(reports): adiciona validação contra SQL injection
+    Merge pull request #1346 from julianaramos/security/adiciona-validacao-contra-sql-injection
+
+commit 7977a3f
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Thu Dec 25 06:39:05 2025 -0300
+
+    perf(billing): otimiza consultas ao banco de dados
+    Merge pull request #1347 from eduardopires/perf/otimiza-consultas-ao-banco-de
+
+commit 0f43fa4
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Thu Dec 25 14:01:35 2025 -0300
+
+    fix(notifications): corrige botão de cancelamento não responsivo
+    Merge pull request #1348 from julianaramos/fix/corrige-botao-de-cancelamento-nao
+
+commit 61c37fc
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Thu Dec 25 19:15:13 2025 -0300
+
+    refactor(search): extrai serviço de notificações para módulo próprio
+    Merge pull request #1349 from julianaramos/refactor/extrai-servico-de-notificacoes-para
+
+commit da2abf9
+Author: Patricia Gomes <patricia.gomes@empresa.com>
+Date:   Fri Dec 26 03:44:44 2025 -0300
+
+    perf(checkout): otimiza consultas ao banco de dados
+    Merge pull request #1350 from patriciagomes/perf/otimiza-consultas-ao-banco-de
+
+commit f8f0c7b
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Fri Dec 26 08:09:45 2025 -0300
+
+    feat(billing): implementa busca com filtros avançados
+    Merge pull request #1351 from lucasferreira/feat/implementa-busca-com-filtros-avancados
+
+tag: v6.5.0
+Tagger: Aline Correia <aline.correia@empresa.com>
+Date:   Fri Dec 26 17:45:04 2025 -0300
+
+    Release v6.5.0
+    PRs incluídos: #1346, #1347, #1348, #1349, #1350, #1351
+
+commit 2b4316c
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Sat Dec 27 01:23:08 2025 -0300
+
+    chore(core): atualiza biblioteca de testes
+    Merge pull request #1352 from lucasferreira/chore/atualiza-biblioteca-de-testes
+
+commit ff1b3f4
+Author: Carla Mendes <carla.mendes@empresa.com>
+Date:   Sat Dec 27 05:35:46 2025 -0300
+
+    docs(dashboard): adiciona exemplos de uso da API pública
+    Merge pull request #1353 from carlamendes/docs/adiciona-exemplos-de-uso-da
+
+commit 18e63d7
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Sat Dec 27 11:51:36 2025 -0300
+
+    test(core): corrige testes instáveis (flaky tests) na suíte de CI
+    Merge pull request #1354 from julianaramos/test/corrige-testes-instaveis-(flaky-tests)
+
+commit edff553
+Author: Lucas Ferreira <lucas.ferreira@empresa.com>
+Date:   Sat Dec 27 18:23:10 2025 -0300
+
+    test(reports): adiciona testes unitários para serviço de notificações
+    Merge pull request #1355 from lucasferreira/test/adiciona-testes-unitarios-para-servico
+
+commit 66159a7
+Author: Fernanda Lima <fernanda.lima@empresa.com>
+Date:   Sun Dec 28 04:25:52 2025 -0300
+
+    perf(notifications): otimiza consultas ao banco de dados
+    Merge pull request #1356 from fernandalima/perf/otimiza-consultas-ao-banco-de
+
+commit 0751a45
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Sun Dec 28 09:14:40 2025 -0300
+
+    refactor(mobile-api): extrai serviço de notificações para módulo próprio
+    Merge pull request #1357 from julianaramos/refactor/extrai-servico-de-notificacoes-para
+
+commit 480a1a9
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Sun Dec 28 17:44:48 2025 -0300
+
+    test(admin-panel): aumenta cobertura de testes do módulo de usuários
+    Merge pull request #1358 from julianaramos/test/aumenta-cobertura-de-testes-do
+
+commit 47cc066
+Author: Thiago Rocha <thiago.rocha@empresa.com>
+Date:   Sun Dec 28 21:48:19 2025 -0300
+
+    chore(notifications): atualiza versão do runtime do Node.js
+    Merge pull request #1359 from thiagorocha/chore/atualiza-versao-do-runtime-do
+
+commit 021db2d
+Author: Juliana Ramos <juliana.ramos@empresa.com>
+Date:   Mon Dec 29 06:43:29 2025 -0300
+
+    test(auth): corrige testes instáveis (flaky tests) na suíte de CI
+    Merge pull request #1360 from julianaramos/test/corrige-testes-instaveis-(flaky-tests)
+
+commit 1098631
+Author: Eduardo Pires <eduardo.pires@empresa.com>
+Date:   Mon Dec 29 13:06:48 2025 -0300
+
+    refactor(core): refatora camada de acesso a dados
+    Merge pull request #1361 from eduardopires/refactor/refatora-camada-de-acesso-a
+
+commit be46a64
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Mon Dec 29 18:43:41 2025 -0300
+
+    feat(core): adiciona modo escuro na interface
+    Merge pull request #1362 from rafaelnunes/feat/adiciona-modo-escuro-na-interface
+
+commit d9d5b5e
+Author: Marina Souza <marina.souza@empresa.com>
+Date:   Tue Dec 30 00:59:06 2025 -0300
+
+    fix(reports): resolve falha no reenvio de e-mails de confirmação
+    Merge pull request #1363 from marinasouza/fix/resolve-falha-no-reenvio-de
+
+commit f236466
+Author: Rafael Nunes <rafael.nunes@empresa.com>
+Date:   Tue Dec 30 06:55:44 2025 -0300
+
+    perf(notifications): otimiza consultas ao banco de dados
+    Merge pull request #1364 from rafaelnunes/perf/otimiza-consultas-ao-banco-de
+
+commit fbeeb22
+Author: Bruno Alves <bruno.alves@empresa.com>
+Date:   Tue Dec 30 15:26:40 2025 -0300
+
+    style(reports): ajusta paleta de cores para acessibilidade
+    Merge pull request #1365 from brunoalves/style/ajusta-paleta-de-cores-para
+
+commit eee3bd5
+Author: Camila Duarte <camila.duarte@empresa.com>
+Date:   Tue Dec 30 21:41:45 2025 -0300
+
+    refactor(billing): refatora camada de acesso a dados
+    Merge pull request #1366 from camiladuarte/refactor/refatora-camada-de-acesso-a
